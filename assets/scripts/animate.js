@@ -1,0 +1,1 @@
+var docBody=document.getElementsByTagName("body")[0];docBody.classList.add("animated"),docBody.classList.add("fadeIn");

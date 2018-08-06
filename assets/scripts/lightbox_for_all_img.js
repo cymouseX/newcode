@@ -1,0 +1,1 @@
+$("article.page img").each(function(){img_src=$(this).attr("data-src"),"undefined"==typeof img_src&&(img_src=img_src=$(this).attr("src")),"undefined"!=typeof img_src&&(img_alt=$(this).attr("alt"),"undefined"==typeof img_alt&&(img_alt=img_src),""!=img_src&&$(this).wrap("<a href='"+img_src+"' data-lightbox='default-page-lightbox' data-title='"+img_alt+"'></a>"))});

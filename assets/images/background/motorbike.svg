@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+	<style type="text/css">
+		.st0{fill:#414042;}
+		.st1{fill:#6B8B9B;}
+		.st2{fill:#3FADB4;}
+		.st3{fill:#61C9C9;}
+		.st4{fill:#FFCE00;}
+		.st5{fill:#EF4136;}
+		.st6{fill:url(#RAZA_1_);}
+		@-webkit-keyframes body {
+			0% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			8% {opacity: 1; -webkit-transform: scale(1.1); transform: scale(1.1);}
+			10% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}
+		}
+		@-moz-keyframes body {
+			0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			8% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); transform: scale(1.1);}
+			10% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);transform: scale(1);}
+		}
+		@-o-keyframes body {
+			0% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			8% {opacity: 1; -webkit-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			10% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@keyframes body {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			8% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			10% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@-webkit-keyframes back {
+            0% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			6% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			8% {opacity: 1; -webkit-transform: scale(1.1); transform: scale(1.1);}
+			10% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}
+		}
+		@-moz-keyframes back {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			6% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			8% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); transform: scale(1.1);}
+			10% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);transform: scale(1);}
+		}
+		@-o-keyframes back {
+            0% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			6% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			8% {opacity: 1; -webkit-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			10% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@keyframes back {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			6% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			8% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			10% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@-webkit-keyframes front {
+            0% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			4% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			6% {opacity: 1; -webkit-transform: scale(1.1); transform: scale(1.1);}
+			8% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}
+		}
+		@-moz-keyframes front {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			4% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			6% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); transform: scale(1.1);}
+			8% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);transform: scale(1);}
+		}
+		@-o-keyframes front {
+            0% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			4% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			6% {opacity: 1; -webkit-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			8% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@keyframes front {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			4% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			6% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			8% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@-webkit-keyframes vent {
+            0% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			10% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			12% {opacity: 1; -webkit-transform: scale(1.1); transform: scale(1.1);}
+			14% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}
+		}
+		@-moz-keyframes vent {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			10% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			12% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); transform: scale(1.1);}
+			14% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);transform: scale(1);}
+		}
+		@-o-keyframes vent {
+            0% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			10% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			12% {opacity: 1; -webkit-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			14% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@keyframes vent {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			10% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			12% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			14% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@-webkit-keyframes ROATA1 {
+            0% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			4% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			5% {opacity: 1; -webkit-transform: scale(1.1); transform: scale(1.1);}
+			6% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			30% {opacity: 1; -webkit-transform: scale(1) rotate(0deg); transform: scale(1) rotate(0deg);}
+			30% {opacity: 1; -webkit-transform: scale(1) rotate(0deg); transform: scale(1) rotate(0deg);}
+			100% {opacity: 1;-webkit-transform: scale(1) rotate(-3000deg);transform: scale(1) rotate(-3000deg);}
+		}
+		@-moz-keyframes ROATA1 {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			4% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			5% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); transform: scale(1.1);}
+			6% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			30% {opacity: 1; -webkit-transform: scale(1) rotate(0deg); -moz-transform: scale(1) rotate(0deg); transform: scale(1) rotate(0deg);}
+			30% {opacity: 1; -webkit-transform: scale(1) rotate(0deg); -moz-transform: scale(1) rotate(0deg); transform: scale(1) rotate(0deg);}
+			100% {opacity: 1;-webkit-transform: scale(1) rotate(-3000deg);-moz-transform: scale(1) rotate(-3000deg);transform: scale(1) rotate(-3000deg);}
+		}
+		@-o-keyframes ROATA1 {
+            0% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			4% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			5% {opacity: 1; -webkit-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			6% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			30% {opacity: 1; -webkit-transform: scale(1) rotate(0deg); -o-transform: scale(1) rotate(0deg); transform: scale(1) rotate(0deg);}
+			30% {opacity: 1; -webkit-transform: scale(1) rotate(0deg); -o-transform: scale(1) rotate(0deg); transform: scale(1) rotate(0deg);}
+			100% {opacity: 1;-webkit-transform: scale(1) rotate(-3000deg);-o-transform: scale(1) rotate(-3000deg);transform: scale(1) rotate(-3000deg);}
+		}
+		@keyframes ROATA1 {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			4% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			5% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			6% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			30% {opacity: 1; -webkit-transform: scale(1) rotate(0deg); -moz-transform: scale(1) rotate(0deg); -o-transform: scale(1) rotate(0deg); transform: scale(1) rotate(0deg);}
+			30% {opacity: 1; -webkit-transform: scale(1) rotate(0deg); -moz-transform: scale(1) rotate(0deg); -o-transform: scale(1) rotate(0deg); transform: scale(1) rotate(0deg);}
+			100% {opacity: 1;-webkit-transform: scale(1) rotate(-3000deg);-moz-transform: scale(1) rotate(-3000deg);-o-transform: scale(1) rotate(-3000deg);transform: scale(1) rotate(-3000deg);}
+		}
+		@-webkit-keyframes tire1 {
+            0% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			3% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			16% {opacity: 1; -webkit-transform: scale(1.1); transform: scale(1.1);}
+			17% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}
+		}
+		@-moz-keyframes tire1 {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			3% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			16% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); transform: scale(1.1);}
+			17% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);transform: scale(1);}
+		}
+		@-o-keyframes tire1 {
+            0% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			3% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			16% {opacity: 1; -webkit-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			17% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@keyframes tire1 {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			3% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			16% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			17% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@-webkit-keyframes maneta {
+            0% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			16% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			17% {opacity: 1; -webkit-transform: scale(1.1); transform: scale(1.1);}
+			18% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}
+		}
+		@-moz-keyframes maneta {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			16% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			17% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); transform: scale(1.1);}
+			18% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);transform: scale(1);}
+		}
+		@-o-keyframes maneta {
+            0% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			16% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			17% {opacity: 1; -webkit-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			18% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@keyframes maneta {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			16% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			17% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			18% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@-webkit-keyframes tire2 {
+            0% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			5% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			17% {opacity: 1; -webkit-transform: scale(1.1); transform: scale(1.1);}
+			18% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}
+		}
+		@-moz-keyframes tire2 {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			5% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			17% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); transform: scale(1.1);}
+			18% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);transform: scale(1);}
+		}
+		@-o-keyframes tire2 {
+            0% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			5% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			17% {opacity: 1; -webkit-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			18% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@keyframes tire2 {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			5% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			17% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			18% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@-webkit-keyframes far {
+            0% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			18% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			20% {opacity: 1; -webkit-transform: scale(1.1); transform: scale(1.1);}
+			22% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}
+		}
+		@-moz-keyframes far {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			18% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			20% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); transform: scale(1.1);}
+			22% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);transform: scale(1);}
+		}
+		@-o-keyframes far {
+            0% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			18% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			20% {opacity: 1; -webkit-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			22% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@keyframes far {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			18% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			20% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			22% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@-webkit-keyframes stop {
+            0% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			20% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			22% {opacity: 1; -webkit-transform: scale(1.1); transform: scale(1.1);}
+			24% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}
+		}
+		@-moz-keyframes stop {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			20% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			22% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); transform: scale(1.1);}
+			24% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);transform: scale(1);}
+		}
+		@-o-keyframes stop {
+            0% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			20% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			22% {opacity: 1; -webkit-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			24% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@keyframes stop {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			20% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			22% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			24% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@-webkit-keyframes raza {
+            0% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			30% {opacity: 0; -webkit-transform: scale(0); transform: scale(0);}
+			32% {opacity: 1; -webkit-transform: scale(1.1); transform: scale(1.1);}
+			34% {opacity: 0.7; -webkit-transform: scale(1); transform: scale(1);}
+			35% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			40% {opacity: 0.5; -webkit-transform: scale(1); transform: scale(1);}
+			43% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			60% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			63% {opacity: 0.4; -webkit-transform: scale(1); transform: scale(1);}
+			70% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			74% {opacity: 0.3; -webkit-transform: scale(1); transform: scale(1);}
+			77% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			80% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			83% {opacity: 0.5; -webkit-transform: scale(1); transform: scale(1);}
+			86% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			90% {opacity: 0.5; -webkit-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}
+		}
+		@-moz-keyframes raza {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			30% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); transform: scale(0);}
+			32% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); transform: scale(1.1);}
+			34% {opacity: 0.7; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			35% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			40% {opacity: 0.5; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			43% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			60% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			63% {opacity: 0.4; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			70% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			74% {opacity: 0.3; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			77% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			80% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			83% {opacity: 0.5; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			86% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			90% {opacity: 0.5; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);transform: scale(1);}
+		}
+		@-o-keyframes raza {
+            0% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			30% {opacity: 0; -webkit-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			32% {opacity: 1; -webkit-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			34% {opacity: 0.7; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			35% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			40% {opacity: 0.5; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			43% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			60% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			63% {opacity: 0.4; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			70% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			74% {opacity: 0.3; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			77% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			80% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			83% {opacity: 0.5; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			86% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			90% {opacity: 0.5; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		@keyframes raza {
+            0% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			30% {opacity: 0; -webkit-transform: scale(0); -moz-transform: scale(0); -o-transform: scale(0); transform: scale(0);}
+			32% {opacity: 1; -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+			34% {opacity: 0.7; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			35% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			40% {opacity: 0.5; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			43% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			60% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			63% {opacity: 0.4; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			70% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			74% {opacity: 0.3; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			77% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			80% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			83% {opacity: 0.5; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			86% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			90% {opacity: 0.5; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			95% {opacity: 1; -webkit-transform: scale(1); -moz-transform: scale(1); -o-transform: scale(1); transform: scale(1);}
+			100% {opacity: 1;-webkit-transform: scale(1);-moz-transform: scale(1);-o-transform: scale(1);transform: scale(1);}
+		}
+		.maneta, .raza {
+			-webkit-transform-box: fill-box;
+            		transform-box: fill-box;
+            -webkit-transform-origin: right center;
+                    -moz-transform-origin: right center;
+                     -ms-transform-origin: right center;
+                      -o-transform-origin: right center;
+                 transform-origin: right center;
+		}
+		.stop, .far, .tire2, .tire1, .ROATA1, .vent, .front, .body, .back {
+			-webkit-transform-box: fill-box;
+            		transform-box: fill-box;
+			-webkit-transform-origin: center center;
+                    -moz-transform-origin: center center;
+                     -ms-transform-origin: center center;
+                      -o-transform-origin: center center;
+			     transform-origin: center center;
+		}
+		.maneta {
+            -webkit-animation: maneta 10s ease-in-out infinite;
+                    -moz-animation: maneta 10s ease-in-out infinite;
+                      -o-animation: maneta 10s ease-in-out infinite;
+                 animation: maneta 10s ease-in-out infinite;
+        }
+		.raza {
+            -webkit-animation: raza 10s ease-in-out infinite;
+                    -moz-animation: raza 10s ease-in-out infinite;
+                      -o-animation: raza 10s ease-in-out infinite;
+                 animation: raza 10s ease-in-out infinite;
+        }
+		.stop {
+            -webkit-animation: stop 10s ease-in-out infinite;
+                    -moz-animation: stop 10s ease-in-out infinite;
+                      -o-animation: stop 10s ease-in-out infinite;
+                 animation: stop 10s ease-in-out infinite;
+        }
+		.far {
+            -webkit-animation: far 10s ease-in-out infinite;
+                    -moz-animation: far 10s ease-in-out infinite;
+                      -o-animation: far 10s ease-in-out infinite;
+                 animation: far 10s ease-in-out infinite;
+        }
+		.tire2 {
+            -webkit-animation: tire2 10s ease-in-out infinite;
+                    -moz-animation: tire2 10s ease-in-out infinite;
+                      -o-animation: tire2 10s ease-in-out infinite;
+                 animation: tire2 10s ease-in-out infinite;
+        }
+		.tire1 {
+            -webkit-animation: tire1 10s ease-in-out infinite;
+                    -moz-animation: tire1 10s ease-in-out infinite;
+                      -o-animation: tire1 10s ease-in-out infinite;
+                 animation: tire1 10s ease-in-out infinite;
+        }
+		.ROATA1 {
+            -webkit-animation: ROATA1 10s ease-in-out infinite;
+                    -moz-animation: ROATA1 10s ease-in-out infinite;
+                      -o-animation: ROATA1 10s ease-in-out infinite;
+                 animation: ROATA1 10s ease-in-out infinite;
+        }
+		.vent {
+            -webkit-animation: vent 10s ease-in-out infinite;
+                    -moz-animation: vent 10s ease-in-out infinite;
+                      -o-animation: vent 10s ease-in-out infinite;
+                 animation: vent 10s ease-in-out infinite;
+        }
+		.front {
+            -webkit-animation: front 10s ease-in-out infinite;
+                    -moz-animation: front 10s ease-in-out infinite;
+                      -o-animation: front 10s ease-in-out infinite;
+                 animation: front 10s ease-in-out infinite;
+        }
+		.body {
+            -webkit-animation: body 10s ease-in-out infinite;
+                    -moz-animation: body 10s ease-in-out infinite;
+                      -o-animation: body 10s ease-in-out infinite;
+                 animation: body 10s ease-in-out infinite;
+        }
+		.back {
+            -webkit-animation: back 10s ease-in-out infinite;
+                    -moz-animation: back 10s ease-in-out infinite;
+                      -o-animation: back 10s ease-in-out infinite;
+                 animation: back 10s ease-in-out infinite;
+        }
+	</style>
+	<g id="TIRE_x5F_1">
+		<path class="st0 tire1" d="M114.9,157.3c-12.3,0-22.2,9.9-22.2,22.2c0,12.3,9.9,22.2,22.2,22.2c12.3,0,22.2-9.9,22.2-22.2
+			C137.1,167.2,127.1,157.3,114.9,157.3z M114.9,197.1c-9.7,0-17.6-7.9-17.6-17.6s7.9-17.6,17.6-17.6s17.6,7.9,17.6,17.6
+			S124.6,197.1,114.9,197.1z"/>
+		<circle class="st0 ROATA1" cx="114.9" cy="179.5" r="6.2"/>
+	</g>
+	<path id="ROATA_x5F_1" class="st1 ROATA1" d="M123.4,179.5c0-1.9,3.4-3.5,7.5-3.8c-0.4-1.7-1.1-3.3-2-4.8c-3.3,2.7-6.6,3.8-7.9,2.5
+		c-1.3-1.3-0.2-4.7,2.5-7.9c-1.5-0.9-3.1-1.6-4.8-2c-0.4,4.1-2,7.4-3.8,7.4s-3.4-3.3-3.8-7.4c-1.7,0.4-3.3,1.1-4.8,2
+		c2.7,3.3,3.8,6.6,2.5,7.9c-1.3,1.3-4.7,0.2-7.9-2.5c-0.9,1.5-1.6,3.1-2,4.8c4.2,0.4,7.5,2,7.5,3.8s-3.4,3.5-7.5,3.8
+		c0.4,1.7,1.1,3.3,2,4.8c3.3-2.7,6.6-3.8,7.9-2.5c1.3,1.3,0.2,4.7-2.5,7.9c1.5,0.9,3.1,1.6,4.8,2c0.4-4.2,2-7.6,3.9-7.6
+		s3.5,3.4,3.9,7.6c1.7-0.4,3.3-1.1,4.8-2c-2.7-3.3-3.8-6.6-2.5-7.9c1.3-1.3,4.7-0.2,7.9,2.5c0.9-1.5,1.6-3.1,2-4.8
+		C126.8,182.9,123.4,181.4,123.4,179.5z M114.9,183.5c-2.2,0-4-1.8-4-4c0-2.2,1.8-4,4-4c2.2,0,4,1.8,4,4
+		C118.9,181.7,117.1,183.5,114.9,183.5z"/>
+	<g id="TIRE_x5F_2">
+		<path class="st0 tire2" d="M233.9,157.3c-12.3,0-22.2,9.9-22.2,22.2c0,12.3,9.9,22.2,22.2,22.2c12.3,0,22.2-9.9,22.2-22.2
+			C256.1,167.2,246.1,157.3,233.9,157.3z M233.9,197.1c-9.7,0-17.6-7.9-17.6-17.6s7.9-17.6,17.6-17.6s17.6,7.9,17.6,17.6
+			S243.6,197.1,233.9,197.1z"/>
+		<circle class="st0 tire2" cx="233.9" cy="179.5" r="6.2"/>
+	</g>
+	<path id="ROATA_x5F_2" class="st1 ROATA1" d="M242.4,179.5c0-1.9,3.4-3.5,7.5-3.8c-0.4-1.7-1.1-3.3-2-4.8c-3.3,2.7-6.6,3.8-7.9,2.5
+		c-1.3-1.3-0.2-4.7,2.5-7.9c-1.5-0.9-3.1-1.6-4.8-2c-0.4,4.1-2,7.4-3.8,7.4s-3.4-3.3-3.8-7.4c-1.7,0.4-3.3,1.1-4.8,2
+		c2.7,3.3,3.8,6.6,2.5,7.9c-1.3,1.3-4.7,0.2-7.9-2.5c-0.9,1.5-1.6,3.1-2,4.8c4.2,0.4,7.5,2,7.5,3.8s-3.4,3.5-7.5,3.8
+		c0.4,1.7,1.1,3.3,2,4.8c3.3-2.7,6.6-3.8,7.9-2.5c1.3,1.3,0.2,4.7-2.5,7.9c1.5,0.9,3.1,1.6,4.8,2c0.4-4.2,2-7.6,3.9-7.6
+		s3.5,3.4,3.9,7.6c1.7-0.4,3.3-1.1,4.8-2c-2.7-3.3-3.8-6.6-2.5-7.9c1.3-1.3,4.7-0.2,7.9,2.5c0.9-1.5,1.6-3.1,2-4.8
+		C245.8,182.9,242.4,181.4,242.4,179.5z M233.9,183.5c-2.2,0-4-1.8-4-4c0-2.2,1.8-4,4-4c2.2,0,4,1.8,4,4
+		C237.9,181.7,236.1,183.5,233.9,183.5z"/>
+	<path id="BODY" class="st2 body" d="M268.4,173.8c-2.6,1.1-5.7-0.2-6.7-2.9l-3.7-9.2c-0.9-2.2-0.3-4.7,1.5-6.2c0.7-0.6,1.5-0.9,2.3-1.1
+		c-7.8-13.2-19.6-22.9-19.6-22.9l-52.3,13.5c0,0-7,39.7-33.7,30.7c-26.7-9-5-73.3-5-73.3c-12-3.7-31.3,20.5-36.7,42.3
+		c-1.2,4.8-0.5,9.4,1.1,13.7c12.1,3.5,20.9,10.2,23.8,22.6c1,0.6,5.5,4.4,5.5,4.4h49.3c0-0.2,0-0.5,0-0.7c0.3-3.8,1.2-7.5,2.5-11.1
+		l1.2-2.6c0.3-0.8,0.9-1.7,1.4-2.5l0.7-1.3c0.2-0.4,0.5-0.8,0.8-1.2c0.6-0.8,1.1-1.5,1.7-2.3c0.6-0.7,1.2-1.4,1.9-2.1l1-1l1-0.9
+		c0.7-0.6,1.4-1.2,2.1-1.8c0.7-0.5,1.5-1.1,2.2-1.6c3-2,6.1-3.5,9.2-4.5c1.5-0.6,3.1-0.9,4.6-1.2c0.7-0.2,1.5-0.2,2.2-0.3
+		c0.7-0.1,1.4-0.2,2.1-0.2c1.4,0,2.7-0.1,4,0c1.3,0.1,2.5,0.2,3.6,0.3c1.1,0.2,2.1,0.4,3.1,0.6c0.9,0.3,1.8,0.5,2.6,0.8
+		c0.4,0.1,0.7,0.2,1.1,0.3c0.3,0.1,0.6,0.3,0.9,0.4c0.6,0.2,1.1,0.5,1.5,0.6c0.8,0.3,1.2,0.5,1.2,0.5s-0.4-0.1-1.3-0.3
+		c-0.4-0.1-0.9-0.2-1.5-0.4c-0.3-0.1-0.6-0.2-1-0.2c-0.3-0.1-0.7-0.1-1.1-0.2c-0.8-0.1-1.6-0.3-2.6-0.4c-0.9-0.1-2-0.1-3-0.2
+		c-1.1-0.1-2.2,0-3.4,0.1c-1.2,0.1-2.5,0.3-3.8,0.4c-0.7,0.1-1.3,0.3-2,0.4c-0.7,0.2-1.4,0.2-2,0.5c-1.3,0.5-2.8,0.8-4.1,1.4
+		c-2.8,1-5.5,2.7-8.2,4.6c-2.6,1.9-5,4.3-7.1,6.9c-0.5,0.7-1,1.4-1.5,2.1c-0.3,0.3-0.5,0.7-0.7,1.1l-0.6,1.1l-0.6,1.1
+		c-0.2,0.3-0.4,0.8-0.6,1.2l-1.1,2.4c-1.3,3.3-2.2,6.8-2.4,10.3c0,0,0,0,0,0h63.2c3.5,0,6.6-2.6,7-6.1
+		C268.5,177.4,268.5,175.6,268.4,173.8C268.4,173.8,268.4,173.8,268.4,173.8z"/>
+	<path id="HEAD" class="st3 tire1" d="M149.3,87.3l-14.2,1.1c-2.6,0-6.6,4-6.6,6.6l-1.3,9.3c0,2.6,2.2,4.8,4.8,4.8h17.3
+		c2.6,0,4.8-2.2,4.8-4.8V92.1C154,89.5,151.9,87.3,149.3,87.3z"/>
+	<path id="LIGHT" class="st4 far" d="M125.4,104.9l1.5-10.8c0.1-0.8-0.9-1.3-1.4-0.7c-2,1.9-4.7,5.8-1.6,11.8
+		C124.2,105.9,125.3,105.7,125.4,104.9z"/>
+	<path id="STOP" class="st5 stop" d="M265.3,163c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h3.2c-0.1,0-0.2,0-0.4-1h-4.1
+		c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h3.6c-0.2,0-0.3,0-0.5-1h-4.8c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5h4.2
+		c-1.1-1-2.5-2.6-4.3-3.1c0,0-5,1.9-3.2,6.4s3.6,9.5,3.6,9.5s2.6,2.8,5.5,1.5c1.6-0.7,1.8-4.4,0.7-9.4H265.3z"/>
+	<path id="FRONT" class="st3 front" d="M137.6,180.7c1.3,2.9,4.3,4.7,7.6,4.7h1.3c0.4-0.4,0.7-0.8,0.7-1.1c3.7-14-7.4-33-22.3-36.6
+		c-14.9-3.5-33.5,12.4-37.3,26.5c0,0,0,0,0,0.1c-0.3,1.1,1.2,1.7,1.9,0.8c6.5-8.3,17.9-12.5,29.1-9.8
+		C127.5,167.3,134.3,173.3,137.6,180.7z"/>
+	<path id="BACK" class="st3 back" d="M263.9,184.9c-1.7-14.9-14.4-26.5-29.8-26.5c-15.6,0-28.3,11.8-29.9,27h57.1
+		C262.3,185.4,263.1,185.2,263.9,184.9z"/>
+	<path id="MANETA" class="st0 maneta" d="M163.3,99.4l-15.1-3.5c0,0-0.1-0.1-0.1-0.1l4.4-2.5c0,0,9.3,3.4,10.4,1.9c1.1-1.5-1.4-2.6-3.1-1.9
+		s-7.3-1.4-7.3-1.4l-5.2,2.8c-0.9-0.9-2.1-1.4-3.4-1.4c-2.7,0-4.9,2.2-4.9,4.9s2.2,4.9,4.9,4.9c1.5,0,2.8-0.7,3.7-1.7l13.2,4.1
+		c0,0,4.6,1,5.1-2.2S163.3,99.4,163.3,99.4z"/>
+	<path id="SEAT" class="tire2 st0" d="M249,115.8L249,115.8c-1.5-2.7-5.3-2.7-6.9-0.1l-2.8,4.6c-0.6,0.9-1.4,1.5-2.5,1.8l-9-0.3
+		c-2.6-0.1-5.1,0.5-7.3,1.7l-3.8,2c-3.6,1.9-7.8,2.2-11.6,0.9c-5.1-1.7-11.2-1.1-14.6,3.1c-9.9,12.2-2.8,16.9-2.8,16.9
+		c1,0.9,2.4,1.2,3.7,0.9l50.9-13.5c1.3-0.3,2.3-1.3,2.8-2.5l4.3-12.1C249.7,118,249.6,116.8,249,115.8z M224.9,125.7
+		c-0.9,0.3-2,0.8-3.3,1.6c-0.6,0.4-1.3,0.9-2,1.4c-0.7,0.5-1.5,1.1-2.4,1.6c-0.9,0.5-1.9,0.9-2.9,1.2c-1,0.3-2.2,0.5-3.3,0.6
+		c-1.1,0.1-2.2,0-3.3-0.2c-0.5-0.1-1.1-0.2-1.6-0.4c-0.5-0.2-1-0.4-1.5-0.6c-0.8-0.3-1.7-0.7-2.5-0.8c-0.8-0.2-1.6-0.2-2.3-0.2
+		c-1.5,0.1-2.7,0.5-3.5,0.9c-0.8,0.4-1.2,0.7-1.2,0.7s0.3-0.4,1-1.1c0.7-0.6,1.9-1.4,3.5-1.7c0.4-0.1,0.8-0.1,1.3-0.2
+		c0.4,0,0.9,0,1.4,0c1,0.1,2,0.3,2.9,0.7c0.5,0.2,0.9,0.3,1.3,0.4c0.4,0.1,0.9,0.2,1.4,0.3c0.9,0.1,1.9,0.2,2.9,0.1
+		c1-0.1,1.9-0.2,2.9-0.5c0.9-0.3,1.8-0.6,2.7-1c0.9-0.4,1.6-0.8,2.4-1.3c0.8-0.5,1.6-0.8,2.3-1.1c1.5-0.6,2.8-0.9,3.8-1
+		c0.5,0,0.8,0,1.1,0c0.2,0,0.4,0,0.4,0S225.7,125.4,224.9,125.7z"/>
+	<path id="VENT" class="st3 vent" d="M130.7,116.4c-0.6-0.3-1.2-0.5-1.9-0.5c-1.8,2.3-3.6,4.8-5.2,7.5h3.7c0.3,0,0.6,0.2,0.6,0.5
+		c0,0.3-0.3,0.5-0.6,0.5h-4.3c-0.2,0.3-0.4,0.7-0.6,1h3.2c0.3,0,0.6,0.2,0.6,0.5s-0.3,0.5-0.6,0.5h-3.7c-0.2,0.4-0.4,1-0.7,1h2.3
+		c0.3,0,0.6,0.2,0.6,0.5s-0.3,0.5-0.6,0.5h-2.8c-2.7,5-4.9,10.8-6.2,16.2c0,0,0,0.1,0,0.1c3.8,2,10.4-2.5,14.9-10.2
+		C133.9,126.7,134.5,118.6,130.7,116.4z"/>
+	<linearGradient id="RAZA_1_" gradientUnits="userSpaceOnUse" x1="34.7864" y1="127.3997" x2="139.9201" y2="76.6389">
+		<stop  offset="0" style="stop-color:#FFF200;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#FFF200"/>
+	</linearGradient>
+	<path id="RAZA" class="st6 raza" d="M48.9,163.5l74.9-58.3l1.6-11.8L19.5,91.9C19.5,91.9-3.1,138.8,48.9,163.5z"/>
+</svg>
