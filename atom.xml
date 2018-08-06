@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="https://vietanhdev.com/atom.xml" rel="self" type="application/atom+xml" /><link href="https://vietanhdev.com/" rel="alternate" type="text/html" /><updated>2018-05-20T15:36:09+07:00</updated><id>https://vietanhdev.com/</id><title type="html">Viet-Anh Nguyen</title><subtitle>The website of Viet Anh Nguyen - Developer - Hacker - Lifelong Learner</subtitle><author><name>Viet Anh Nguyen</name><email>vietanh@vietanhdev.com</email><uri>https://vietanhdev.com</uri></author><entry><title type="html">Website chuyển tiếng Việt sang kiểu viết mới dựa theo PGS TS Bùi Hiền</title><link href="https://vietanhdev.com/articles/webiste-chuyen-tieng-viet-sang-kieu-viet-moi/" rel="alternate" type="text/html" title="Website chuyển tiếng Việt sang kiểu viết mới dựa theo PGS TS Bùi Hiền" /><published>2017-11-27T00:00:00+07:00</published><updated>2017-11-27T00:00:00+07:00</updated><id>https://vietanhdev.com/articles/webiste-chuyen-tieng-viet-sang-kieu-viet-moi</id><content type="html" xml:base="https://vietanhdev.com/articles/webiste-chuyen-tieng-viet-sang-kieu-viet-moi/">&lt;p&gt;Gần đây PGS.TS Bùi Hiền, Nguyên Hiệu phó trường ĐHSP Ngoại ngữ Hà Nội đã đề xuất cải tiến bảng chữ cái tiếng Việt như chuyển cách viết Luật giáo dục” đổi thành “Luật záo zụk”. “Tiếng Việt” thành “Tiếq Việt”, “ngôn ngữ” thành “Qôn qữ”… . Phương pháp này hiện còn đang gây nhiều tranh cãi.&lt;/p&gt;
+
+&lt;p&gt;Link: &lt;a href=&quot;http://dantri.com.vn/giao-duc-khuyen-hoc/xon-xao-de-xuat-cai-tien-bang-chu-cai-tieng-viet-thanh-tieq-viet-20171125070902324.htm&quot;&gt;http://dantri.com.vn/giao-duc-khuyen-hoc/xon-xao-de-xuat-cai-tien-bang-chu-cai-tieng-viet-thanh-tieq-viet-20171125070902324.htm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tuy vậy không thể phủ nhận một số ưu điểm của cách viết mới. Việt Anh tạo trang này để cung cấp một công cụ chuyển đổi từ cách viết cũ sang cách viết mới (theo các thông tin thu thập được từ Internet) cho các bạn tò mò, muốn tìm hiểu.&lt;/p&gt;
+
+&lt;p&gt;Các bạn có thể truy cập công cụ tại địa chỉ:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://vietanhdev.com/tieng-viet-moi/&quot;&gt;https://vietanhdev.com/tieng-viet-moi/&lt;/a&gt;&lt;/p&gt;</content><author><name>Viet Anh Nguyen</name><email>vietanh@vietanhdev.com</email><uri>https://vietanhdev.com</uri></author><category term="article" /><category term="WebDev" /><category term="tiếng Việt" /><summary type="html">Gần đây PGS.TS Bùi Hiền, Nguyên Hiệu phó trường ĐHSP Ngoại ngữ Hà Nội đã đề xuất cải tiến bảng chữ cái tiếng Việt như chuyển cách viết Luật giáo dục” đổi thành “Luật záo zụk”. “Tiếng Việt” thành “Tiếq Việt”, “ngôn ngữ” thành “Qôn qữ”… . Phương pháp này hiện còn đang gây nhiều tranh cãi.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://vietanhdev.com/assets/images/tieng-viet-moi/tieng-viet-moi.png" /></entry><entry xml:lang="vi"><title type="html">Xây dựng một cấu hình Emacs từ đầu</title><link href="https://vietanhdev.com/articles/tu-viet-mot-file-cau-hinh-Emacs/" rel="alternate" type="text/html" title="Xây dựng một cấu hình Emacs từ đầu" /><published>2017-08-25T00:00:00+07:00</published><updated>2017-08-25T00:00:00+07:00</updated><id>https://vietanhdev.com/articles/tu-viet-mot-file-cau-hinh-Emacs</id><content type="html" xml:base="https://vietanhdev.com/articles/tu-viet-mot-file-cau-hinh-Emacs/">&lt;p&gt;Emacs là một trình soạn thảo văn bản đa chức năng và có thể mở rộng các chức năng một cách mạnh mẽ. Khi chưa cấu hình (tất cả thiết lập để ở mặc định), Emacs có thể coi là trình soạn thảo hơi khó dùng, giao diện khá đơn giản, nếu không nói là xấu. Tuy nhiên khi tuỳ biến bằng các tệp cấu hình, bạn có thể biến Emacs thành bất cứ thứ gì bạn muốn. Đó là lý do Emacs có thể tồn tại được từ lần đầu tiên nó được sinh ra (năm 1976) cho tới nay và luôn là một trong các trình soạn thảo code được nhiều lập trình viên sử dụng nhất. Trong bài viết này tôi sẽ hướng dẫn các bạn cấu hình cơ bản Emacs từ đầu cho tới khi trở thành một trình soạn thảo đem lại cho bạn cảm giác thoải mái.&lt;/p&gt;
+
+&lt;p&gt;Một số hình ảnh về Emacs sử dụng các cấu hình khác nhau:&lt;/p&gt;
+
+&lt;noscript&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/emacs/default-emacs.png&quot; alt=&quot;Emacs mặc định&quot; src=&quot;https://vietanhdev.com/assets/images/emacs/default-emacs.png&quot; /&gt;&lt;/noscript&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/emacs/default-emacs.png&quot; alt=&quot;Emacs mặc định&quot; class=&quot; lazyload lazyload-hidden&quot; src=&quot;/assets/images/loading.svg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;GNU Emacs cấu hình mặc định - Hình ảnh từ trang chủ.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/emacs/spacemacs.png&quot; alt=&quot;Spacemacs&quot; src=&quot;https://vietanhdev.com/assets/images/emacs/spacemacs.png&quot; /&gt;&lt;/noscript&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/emacs/spacemacs.png&quot; alt=&quot;Spacemacs&quot; class=&quot; lazyload lazyload-hidden&quot; src=&quot;/assets/images/loading.svg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Spacemacs - Một cấu hình Emacs được phát triển bởi cộng đồng&lt;/p&gt;
+
+&lt;noscript&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/emacs/emacs-vietanh.png&quot; alt=&quot;Emacs&quot; src=&quot;https://vietanhdev.com/assets/images/emacs/emacs-vietanh.png&quot; /&gt;&lt;/noscript&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/emacs/emacs-vietanh.png&quot; alt=&quot;Emacs&quot; class=&quot; lazyload lazyload-hidden&quot; src=&quot;/assets/images/loading.svg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bản Emacs với cấu hình tôi đang dùng để viết bài viết này và sẽ hướng dẫn các bạn tạo một cái tương tự.&lt;/p&gt;
+
+&lt;aside&gt;
+&lt;nav class=&quot;toc&quot;&gt;
+    &lt;header&gt;&lt;h4&gt;&lt;span class=&quot;oi oi-file&quot;&gt;&lt;/span&gt; Các mục chính của bài viết &lt;/h4&gt;&lt;/header&gt;
+&lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#tệp-cấu-hình-emacs-ở-đâu&quot; id=&quot;markdown-toc-tệp-cấu-hình-emacs-ở-đâu&quot;&gt;Tệp cấu hình Emacs ở đâu?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tạo-file-cấu-hình-từ-đầu&quot; id=&quot;markdown-toc-tạo-file-cấu-hình-từ-đầu&quot;&gt;Tạo file cấu hình từ đầu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#nạp-package-manager&quot; id=&quot;markdown-toc-nạp-package-manager&quot;&gt;Nạp package manager&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tuỳ-biến-các-giao-diện-chính&quot; id=&quot;markdown-toc-tuỳ-biến-các-giao-diện-chính&quot;&gt;Tuỳ biến các giao diện chính:&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#đổi-theme&quot; id=&quot;markdown-toc-đổi-theme&quot;&gt;Đổi theme&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ẩn-các-thanh-công-cụ-menu-thanh-cuộn-mặc-định&quot; id=&quot;markdown-toc-ẩn-các-thanh-công-cụ-menu-thanh-cuộn-mặc-định&quot;&gt;Ẩn các thanh công cụ, menu, thanh cuộn mặc định&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#hiện-line-number-số-dòng-khi-soạn-code&quot; id=&quot;markdown-toc-hiện-line-number-số-dòng-khi-soạn-code&quot;&gt;Hiện line number (số dòng khi soạn code)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cài-đặt-tab-indent&quot; id=&quot;markdown-toc-cài-đặt-tab-indent&quot;&gt;Cài đặt tab-indent&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#word-wrap&quot; id=&quot;markdown-toc-word-wrap&quot;&gt;Word wrap&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#tô-sáng-các-ngoặc-tương-ứng-nhau&quot; id=&quot;markdown-toc-tô-sáng-các-ngoặc-tương-ứng-nhau&quot;&gt;Tô sáng các ngoặc tương ứng nhau&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#đổi-font-chữ&quot; id=&quot;markdown-toc-đổi-font-chữ&quot;&gt;Đổi Font chữ&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cá-nhân-hoá-lời-chào-khi-khởi-động-emacs&quot; id=&quot;markdown-toc-cá-nhân-hoá-lời-chào-khi-khởi-động-emacs&quot;&gt;Cá nhân hoá “Lời chào” khi khởi động Emacs&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#một-số-tuỳ-biến-giao-diện-nâng-cao&quot; id=&quot;markdown-toc-một-số-tuỳ-biến-giao-diện-nâng-cao&quot;&gt;Một số tuỳ biến giao diện nâng cao&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#cuộn-trang-mượt-hơn-chế-độ-xem-thẩm-mĩ-và-minimap-giống-sublime-text&quot; id=&quot;markdown-toc-cuộn-trang-mượt-hơn-chế-độ-xem-thẩm-mĩ-và-minimap-giống-sublime-text&quot;&gt;Cuộn trang mượt hơn, chế độ xem thẩm mĩ và minimap giống Sublime Text&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#thêm-chức-năng-directory-view-hiện-cây-thư-mục-các-file-trong-dự-án-ở-bên-trái&quot; id=&quot;markdown-toc-thêm-chức-năng-directory-view-hiện-cây-thư-mục-các-file-trong-dự-án-ở-bên-trái&quot;&gt;Thêm chức năng Directory view (Hiện cây thư mục các file trong dự án ở bên trái)&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#cài-all-the-icons&quot; id=&quot;markdown-toc-cài-all-the-icons&quot;&gt;Cài all-the-icons&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#cài-neotree&quot; id=&quot;markdown-toc-cài-neotree&quot;&gt;Cài neotree&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#thêm-nyancat-hình-con-mèo-bay-ở-dưới-thanh-modeline-để-biểu-thị-vị-trí-chuột-so-với-văn-bản&quot; id=&quot;markdown-toc-thêm-nyancat-hình-con-mèo-bay-ở-dưới-thanh-modeline-để-biểu-thị-vị-trí-chuột-so-với-văn-bản&quot;&gt;Thêm NyanCat (hình con mèo bay) ở dưới thanh Modeline để biểu thị vị trí chuột so với văn bản&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tăng-cường-chức-năng-tìm-kiếm-và-tự-động-hoàn-thành&quot; id=&quot;markdown-toc-tăng-cường-chức-năng-tìm-kiếm-và-tự-động-hoàn-thành&quot;&gt;Tăng cường chức năng tìm kiếm và tự động hoàn thành&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#thay-thế-chức-năng-tìm-kiếm-tự-hoàn-thành-mặc-định-bằng-ivy&quot; id=&quot;markdown-toc-thay-thế-chức-năng-tìm-kiếm-tự-hoàn-thành-mặc-định-bằng-ivy&quot;&gt;Thay thế chức năng tìm kiếm, tự hoàn thành mặc định bằng Ivy&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#tự-hoàn-thành-code-và-chức-năng-snippet&quot; id=&quot;markdown-toc-tự-hoàn-thành-code-và-chức-năng-snippet&quot;&gt;Tự hoàn thành code và chức năng Snippet&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#autocomplete--company&quot; id=&quot;markdown-toc-autocomplete--company&quot;&gt;Autocomplete : company&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#thêm-các-snippets-từ-gói-yasnippet-cho-nhiều-ngôn-ngữ&quot; id=&quot;markdown-toc-thêm-các-snippets-từ-gói-yasnippet-cho-nhiều-ngôn-ngữ&quot;&gt;Thêm các snippets từ gói yasnippet cho nhiều ngôn ngữ&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tự-động-check-lỗi-lập-trình-theo-thời-gian-thực&quot; id=&quot;markdown-toc-tự-động-check-lỗi-lập-trình-theo-thời-gian-thực&quot;&gt;Tự động check lỗi lập trình theo thời gian thực&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#thêm-một-số-phím-tắt-chức-năng-cho-emacs&quot; id=&quot;markdown-toc-thêm-một-số-phím-tắt-chức-năng-cho-emacs&quot;&gt;Thêm một số phím tắt chức năng cho Emacs&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#commentuncomment-các-dòng-code&quot; id=&quot;markdown-toc-commentuncomment-các-dòng-code&quot;&gt;Comment/Uncomment các dòng code&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#quản-lí-các-buffer&quot; id=&quot;markdown-toc-quản-lí-các-buffer&quot;&gt;Quản lí các buffer&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#di-chuyển-giữa-các-cửa-sổ-buffer-đang-hiện-trên-màn-hình&quot; id=&quot;markdown-toc-di-chuyển-giữa-các-cửa-sổ-buffer-đang-hiện-trên-màn-hình&quot;&gt;Di chuyển giữa các cửa sổ (buffer đang hiện trên màn hình)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#thay-đổi-thích-thước-các-cửa-sổ&quot; id=&quot;markdown-toc-thay-đổi-thích-thước-các-cửa-sổ&quot;&gt;Thay đổi thích thước các cửa sổ&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#multiple-cursors-đa-con-trỏ&quot; id=&quot;markdown-toc-multiple-cursors-đa-con-trỏ&quot;&gt;Multiple cursors (đa con trỏ)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/nav&gt;
+&lt;/aside&gt;
+
+&lt;h2 id=&quot;tệp-cấu-hình-emacs-ở-đâu&quot;&gt;Tệp cấu hình Emacs ở đâu?&lt;/h2&gt;
+
+&lt;p&gt;Bạn có thể chỉnh sửa cấu hình Emacs tại file &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.emacs.el&lt;/code&gt; hoặc &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.emacs.d/init.el&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Trong khuôn khổ bài viết này, tôi chỉ hướng dẫn các bạn cấu hình từ đầu bằng cách dùng file &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.emacs.d/init.el&lt;/code&gt;. Bạn có thể sử dụng bất kì editor nào bạn muốn để thực hiện việc chỉnh sửa file này (có thể là chính Emacs, tuy nhiên bạn sẽ phải mở lại file cấu hình liên tục mỗi khi khởi động lại Emacs để xem kết quả nếu bạn dùng nó).&lt;/p&gt;
+
+&lt;h2 id=&quot;tạo-file-cấu-hình-từ-đầu&quot;&gt;Tạo file cấu hình từ đầu&lt;/h2&gt;
+
+&lt;p&gt;Hãy tạo 1 file cấu hình để chúng ta bắt đầu làm việc từ đầu bằng cách xoá file &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.emacs.el&lt;/code&gt; và tất cả các file trong thư mục &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.emacs.d&lt;/code&gt;, sau đó tạo file mới &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.emacs.d/init.el&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sau khi có một file cấu hình mới tên &lt;code class=&quot;highlighter-rouge&quot;&gt;init.el&lt;/code&gt;, bạn hãy thực hiện tiếp các bước bên dưới để thêm nội dung vào.&lt;/p&gt;
+
+&lt;h2 id=&quot;nạp-package-manager&quot;&gt;Nạp package manager&lt;/h2&gt;
+
+&lt;p&gt;Package manager (giống Package control bên Sublime Text) giúp bạn quản lí, cài đặt các gói tính năng bổ sung cho trình soạn thảo.&lt;/p&gt;
+
+&lt;p&gt;Thêm đoạn code sau để load package manager lên và thêm kho plugin “melpa”:&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Load package manager&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'package&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-to-list&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'package-archives&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;melpa&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;https://melpa.org/packages/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package-initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Trong bài viết này tôi sẽ sử dụng thêm một gói tên &lt;code class=&quot;highlighter-rouge&quot;&gt;use-package&lt;/code&gt; để tự động quản lí việc tải về các package khác và tăng đáng kể tốc độ khởi động Emacs.&lt;/p&gt;
+
+&lt;p&gt;Đặt đoạn code sau ngay phía dưới đoạn trên:&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Load `use-package`&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;unless&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package-installed-p&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'use-package&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package-refresh-contents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package-install&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'use-package&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;eval-when-compile&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'use-package&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'diminish&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'bind-key&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;use-package-always-ensure&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;tuỳ-biến-các-giao-diện-chính&quot;&gt;Tuỳ biến các giao diện chính:&lt;/h2&gt;
+
+&lt;h3 id=&quot;đổi-theme&quot;&gt;Đổi theme&lt;/h3&gt;
+
+&lt;p&gt;Trong cấu hình này tôi sẽ sử dụng theme monokai (theme màu tối được khá nhiều người ưa thích). Bạn cũng có thể tìm các theme khác từ Google nhé.&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Load editor theme&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;monokai-theme&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:config&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;load-theme&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'monokai&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;ẩn-các-thanh-công-cụ-menu-thanh-cuộn-mặc-định&quot;&gt;Ẩn các thanh công cụ, menu, thanh cuộn mặc định&lt;/h3&gt;
+
+&lt;p&gt;Đôi khi việc có thêm các thanh menu, thanh cuộn chỉ làm bạn mất tập trung. Hãy loại bỏ chúng bằng cách thêm đoạn code sau (Lưu ý nếu bạn muốn giữ lại thứ gì hãy comment lại dòng tương ứng bằng cách để dấu &lt;code class=&quot;highlighter-rouge&quot;&gt;;&lt;/code&gt; ở đầu dòng).&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Turn off menubar, toolbar, scollbar&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;fboundp&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'menu-bar-mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;menu-bar-mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;fboundp&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'tool-bar-mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tool-bar-mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;fboundp&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'scroll-bar-mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;scroll-bar-mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;-1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;noscript&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/emacs/default-emacs-toolbar.png&quot; alt=&quot;Emacs Toolbar Menubar Scrollbar&quot; src=&quot;https://vietanhdev.com/assets/images/emacs/default-emacs-toolbar.png&quot; /&gt;&lt;/noscript&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/emacs/default-emacs-toolbar.png&quot; alt=&quot;Emacs Toolbar Menubar Scrollbar&quot; class=&quot; lazyload lazyload-hidden&quot; src=&quot;/assets/images/loading.svg&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;hiện-line-number-số-dòng-khi-soạn-code&quot;&gt;Hiện line number (số dòng khi soạn code)&lt;/h3&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Display line number when programming&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;add-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'prog-mode-hook&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'linum-mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;linum-format&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;%4d \u2502&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;cài-đặt-tab-indent&quot;&gt;Cài đặt tab-indent&lt;/h3&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;tab-width&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;word-wrap&quot;&gt;Word wrap&lt;/h3&gt;
+
+&lt;p&gt;Mặc định Emacs sẽ cắt dòng bằng cách cắt đôi một từ. Dòng sau sẽ giúp cài đặt Emacs chỉ xuống dòng khi viết hết từ.&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-visual-line-mode&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;tô-sáng-các-ngoặc-tương-ứng-nhau&quot;&gt;Tô sáng các ngoặc tương ứng nhau&lt;/h3&gt;
+
+&lt;p&gt;Sử dụng code sau giúp tô sáng ngoặc tương ứng khi bạn để con trỏ lên một ngoặc.&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Display paren (highlight matching brackets)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;show-paren-mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;show-paren-delay&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;đổi-font-chữ&quot;&gt;Đổi Font chữ&lt;/h3&gt;
+
+&lt;p&gt;Tôi rất thích sử dụng font “Source Code Pro” của Adobe khi code. Do vậy tôi sẽ đổi font mặc định của Emacs:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cài Font “Source Code Pro” của Adobe bằng cách tải về từ github &lt;a href=&quot;https://github.com/adobe-fonts/source-code-pro&quot;&gt;https://github.com/adobe-fonts/source-code-pro&lt;/a&gt; và thực hiện cài đặt theo hệ điều hành sử dụng.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sau khi cài font “Source Code Pro”, thêm đoạn sau vào file cấu hình Emacs:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;set-face-attribute&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'default&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;
+                    &lt;span class=&quot;ss&quot;&gt;:family&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Source Code Pro&quot;&lt;/span&gt;
+                    &lt;span class=&quot;ss&quot;&gt;:height&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;160&lt;/span&gt;
+                    &lt;span class=&quot;ss&quot;&gt;:weight&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'normal&lt;/span&gt;
+                    &lt;span class=&quot;ss&quot;&gt;:width&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'normal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;cá-nhân-hoá-lời-chào-khi-khởi-động-emacs&quot;&gt;Cá nhân hoá “Lời chào” khi khởi động Emacs&lt;/h3&gt;
+
+&lt;p&gt;Có một cấu hình khác hay trong Emacs giúp bạn tạo ra một màn hình “Lời chào” mỗi khi bật Emacs thay vì màn hình trợ giúp mặc định của nó. Thêm code sau vào file cấu hình (sửa lời chào của tôi thành cái của bạn nhé - có thể dùng markdown để lời chào thêm sinh động).&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Display startup message&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;initial-scratch-message&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;
+
+# EMACS CONFIGURATION BY VIET-ANH NGUYEN
+# VERSION : 1.0
+
+## Email: ...
+## Website: ...
+
+## Welcome! Hope my configuration can help you.
+
+&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;inhibit-startup-message&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;initial-major-mode&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'markdown-mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+  &lt;h4 class=&quot;alert-heading&quot;&gt;Well done!&lt;/h4&gt;
+  &lt;p&gt;Kết thúc phần cấu hình giao diện cơ bản. Bạn có thể khởi động lại Emacs để xem những thay đổi vừa xảy ra rồi đó. Nếu có bất kì thắc mắc hoặc vấn đề nào trong quá trình thực hiện, hãy comment bên dưới bài viết.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;một-số-tuỳ-biến-giao-diện-nâng-cao&quot;&gt;Một số tuỳ biến giao diện nâng cao&lt;/h2&gt;
+
+&lt;h3 id=&quot;cuộn-trang-mượt-hơn-chế-độ-xem-thẩm-mĩ-và-minimap-giống-sublime-text&quot;&gt;Cuộn trang mượt hơn, chế độ xem thẩm mĩ và minimap giống Sublime Text&lt;/h3&gt;
+
+&lt;p&gt;Nếu bạn lựa chọn trình soạn thảo Sublime Text vì những thứ trên và ghét Emacs ở chỗ mỗi khi bạn cuộn trang (C-v, M-v) thì Emacs sẽ ngay lập tức chuyển sang vị trí tiếp theo, không có hiệu ứng cuộn, hay bạn thích 1 trình soạn thảo có thêm chức năng minimap(“bản đồ” thu nhỏ của code), xem văn bản kiểu attractive (căn lề 2 bên để tăng tính thẩm mĩ), xin trả lời Emacs cũng làm được như vậy với package sublimity. Chỉ cần thêm đoạn code sau:&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Smooth Scrolling and attractive mode (look like Sublime Text)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;sublimity&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:config&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'sublimity-scroll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;;; (require 'sublimity-map) ;; experimental&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'sublimity-attractive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;sublimity-mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Cá nhân tôi không thích chế độ xem minimap nên tôi sẽ comment dòng &lt;code class=&quot;highlighter-rouge&quot;&gt;;; (require 'sublimity-map) ;; experimental&lt;/code&gt;. Chỉ cần bỏ &lt;code class=&quot;highlighter-rouge&quot;&gt;;;&lt;/code&gt; đầu dòng đó là chức năng trên sẽ được kích hoạt.&lt;/p&gt;
+
+&lt;p&gt;Screenshot (Nguồn &lt;a href=&quot;https://github.com/zk-phi/sublimity&quot;&gt;sublimity&lt;/a&gt;):&lt;/p&gt;
+
+&lt;noscript&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/emacs/sublimity.png&quot; alt=&quot;Sublimity - Emacs&quot; src=&quot;https://vietanhdev.com/assets/images/emacs/sublimity.png&quot; /&gt;&lt;/noscript&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/emacs/sublimity.png&quot; alt=&quot;Sublimity - Emacs&quot; class=&quot; lazyload lazyload-hidden&quot; src=&quot;/assets/images/loading.svg&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;thêm-chức-năng-directory-view-hiện-cây-thư-mục-các-file-trong-dự-án-ở-bên-trái&quot;&gt;Thêm chức năng Directory view (Hiện cây thư mục các file trong dự án ở bên trái)&lt;/h3&gt;
+
+&lt;p&gt;Ở đây mình sẽ sử dụng đến package tên “neotree” cho chức năng hiện cây thư mục và “all-the-icons” cho hiển thị các icon đẹp cho thư mục và tệp.&lt;/p&gt;
+
+&lt;h4 id=&quot;cài-all-the-icons&quot;&gt;Cài all-the-icons&lt;/h4&gt;
+
+&lt;p&gt;Thêm dòng:&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;all-the-icons&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Tiếp theo, khởi động lại Emacs và gõ &lt;code class=&quot;highlighter-rouge&quot;&gt;M-x all-the-icons-install-fonts&lt;/code&gt; để cài các icon font vào hệ thống.&lt;/p&gt;
+
+&lt;h4 id=&quot;cài-neotree&quot;&gt;Cài neotree&lt;/h4&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Display a directory tree view on the left side&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;neotree&lt;/span&gt;
+ &lt;span class=&quot;ss&quot;&gt;:config&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;progn&lt;/span&gt;
+	  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;neo-theme&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;display-graphic-p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'icons&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'arrow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+ &lt;span class=&quot;ss&quot;&gt;:bind&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;C-x n o&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;neotree-toggle&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Sau khi khởi động lại một lần nữa và chờ tới khi neotree được cài đặt, bạn có thể gõ &lt;code class=&quot;highlighter-rouge&quot;&gt;C-x n o&lt;/code&gt; để bật/tắt chế độ xem cây thư mục.&lt;/p&gt;
+
+&lt;p&gt;Screenshot&lt;/p&gt;
+
+&lt;noscript&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/emacs/neotree.png&quot; alt=&quot;Hình ảnh neotree Emacs&quot; src=&quot;https://vietanhdev.com/assets/images/emacs/neotree.png&quot; /&gt;&lt;/noscript&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/emacs/neotree.png&quot; alt=&quot;Hình ảnh neotree Emacs&quot; class=&quot; lazyload lazyload-hidden&quot; src=&quot;/assets/images/loading.svg&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;thêm-nyancat-hình-con-mèo-bay-ở-dưới-thanh-modeline-để-biểu-thị-vị-trí-chuột-so-với-văn-bản&quot;&gt;Thêm NyanCat (hình con mèo bay) ở dưới thanh Modeline để biểu thị vị trí chuột so với văn bản&lt;/h3&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; NyanCat on Modeline as an analog indicator of your position in the buffer&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;nyan-mode&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:config&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;nyan-mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Bạn có thể ghé qua &lt;a href=&quot;https://github.com/TeMPOraL/nyan-mode&quot;&gt;https://github.com/TeMPOraL/nyan-mode&lt;/a&gt; để tìm hiểu thêm một số thiết lập animation (hoạt hình) cho NyanCat.&lt;/p&gt;
+
+&lt;p&gt;Hình ảnh thanh NyanCat:&lt;/p&gt;
+
+&lt;noscript&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/emacs/nyancat.png&quot; alt=&quot;Nyancat&quot; src=&quot;https://vietanhdev.com/assets/images/emacs/nyancat.png&quot; /&gt;&lt;/noscript&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/emacs/nyancat.png&quot; alt=&quot;Nyancat&quot; class=&quot; lazyload lazyload-hidden&quot; src=&quot;/assets/images/loading.svg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tăng-cường-chức-năng-tìm-kiếm-và-tự-động-hoàn-thành&quot;&gt;Tăng cường chức năng tìm kiếm và tự động hoàn thành&lt;/h2&gt;
+
+&lt;h3 id=&quot;thay-thế-chức-năng-tìm-kiếm-tự-hoàn-thành-mặc-định-bằng-ivy&quot;&gt;Thay thế chức năng tìm kiếm, tự hoàn thành mặc định bằng Ivy&lt;/h3&gt;
+
+&lt;p&gt;Các chức năng tìm kiếm, tự hoàn thành mặc định có thể thay thế bằng một framework tuyệt vời tên &lt;a href=&quot;https://github.com/abo-abo/swiper&quot;&gt;Ivy&lt;/a&gt;. Bạn cũng có thể dùng &lt;a href=&quot;https://github.com/emacs-helm/helm&quot;&gt;Helm&lt;/a&gt; - framework khá mạnh mẽ được nhiều người dùng. Tuy nhiên vì Helm có quá nhiều chức năng, nó sẽ khiến Emacs chậm đi đáng kể tôi quyết định chọn Ivy.&lt;/p&gt;
+
+&lt;p&gt;Thêm đoạn code sau vào file cấu hình và khởi động lại. Thử một chức năng như tìm kiếm C-s hay M-x để xem sự khác biệt so với các mặc định của Emacs.&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Replace default completion frontend with Ivy&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;; https://github.com/abo-abo/swiper&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;counsel&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:config&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;ivy-mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:init&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;progn&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;ivy-use-virtual-buffers&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;enable-recursive-minibuffers&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;\C-s&quot;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'swiper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-c C-r&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'ivy-resume&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;f6&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'ivy-resume&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;M-x&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'counsel-M-x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-x C-f&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'counsel-find-file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;f1&amp;gt; f&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'counsel-describe-function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;f1&amp;gt; v&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'counsel-describe-variable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;f1&amp;gt; l&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'counsel-find-library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;f2&amp;gt; i&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'counsel-info-lookup-symbol&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;f2&amp;gt; u&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'counsel-unicode-char&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-c g&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'counsel-git&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-c j&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'counsel-git-grep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-c k&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'counsel-ag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-x l&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'counsel-locate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-S-o&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'counsel-rhythmbox&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;define-key&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;read-expression-map&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-r&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'counsel-expression-history&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;tự-hoàn-thành-code-và-chức-năng-snippet&quot;&gt;Tự hoàn thành code và chức năng Snippet&lt;/h3&gt;
+
+&lt;h4 id=&quot;autocomplete--company&quot;&gt;Autocomplete : company&lt;/h4&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Autocomplete&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;company&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:config&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-company-mode&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;thêm-các-snippets-từ-gói-yasnippet-cho-nhiều-ngôn-ngữ&quot;&gt;Thêm các snippets từ gói yasnippet cho nhiều ngôn ngữ&lt;/h4&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Snippets&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;yasnippet&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:defer&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;t&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:init&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;yas-global-mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;tự-động-check-lỗi-lập-trình-theo-thời-gian-thực&quot;&gt;Tự động check lỗi lập trình theo thời gian thực&lt;/h2&gt;
+
+&lt;p&gt;Ở đây tôi dùng Flycheck thay cho Flymake mặc định trên Emacs.&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;;;; FLYCHECK  - REALTIME ERROR CHECKING ===============&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;flycheck&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:config&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-flycheck-mode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;setq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;flycheck-check-syntax-automatically&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;mode-enabled&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;save&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;thêm-một-số-phím-tắt-chức-năng-cho-emacs&quot;&gt;Thêm một số phím tắt chức năng cho Emacs&lt;/h2&gt;
+
+&lt;h3 id=&quot;commentuncomment-các-dòng-code&quot;&gt;Comment/Uncomment các dòng code&lt;/h3&gt;
+
+&lt;p&gt;Thêm đoạn code sau và bạn có chức năng comment tương tự các editor khác như Sublime Text (sử dụng &lt;code class=&quot;highlighter-rouge&quot;&gt;C-c c&lt;/code&gt; để toggle comment cho các dòng code được bôi đen).&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;xah-comment-dwim&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Like `comment-dwim', but toggle comment if cursor is not at end of line.&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;interactive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;region-active-p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;comment-dwim&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;-lbp&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;line-beginning-position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;-lep&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;line-end-position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;-lbp&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;-lep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;progn&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;comment-dwim&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;eq&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;-lep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;progn&lt;/span&gt;
+              &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;comment-dwim&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+          &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;progn&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;comment-or-uncomment-region&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;-lbp&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;-lep&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;forward-line&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)))))))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-c c&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'xah-comment-dwim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;quản-lí-các-buffer&quot;&gt;Quản lí các buffer&lt;/h3&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Manage buffers&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;defun&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;switch-to-previous-buffer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;&quot;Switch to previously open buffer.
+Repeated invocations toggle between the two most recently open buffers.&quot;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;interactive&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;switch-to-buffer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;other-buffer&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;current-buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;key-chord&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:config&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;progn&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;key-chord-mode&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;key-chord-define-global&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;jj&quot;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'switch-to-previous-buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;key-chord-define-global&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;kk&quot;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'next-buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;key-chord-define-global&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;gg&quot;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'goto-line&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;key-chord-define-global&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;yy&quot;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'other-window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;key-chord-define-global&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;xx&quot;&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'kill-buffer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ở đây tôi dùng các &lt;code class=&quot;highlighter-rouge&quot;&gt;keychord&lt;/code&gt; để quản lí các buffer. Keychord được kích hoạt bằng cách ấn liên tục chuỗi phím trên bàn phím. Ví dụ bạn có thể ấn liên tiếp &lt;code class=&quot;highlighter-rouge&quot;&gt;jj&lt;/code&gt; để chuyển qua buffer trước đó. Các keychord dùng quản lí buffer và chức năng của chúng được mô tả trong bảng dưới đây.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr&gt;
+	&lt;th&gt;Keychord&lt;/th&gt;
+	&lt;th&gt;Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;jj&lt;/td&gt;
+	&lt;td&gt;Chuyển qua buffer trước đó&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;kk&lt;/td&gt;
+	&lt;td&gt;Chuyển qua buffer sau&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;gg&lt;/td&gt;
+	&lt;td&gt;Đi tới một dòng (Nhập vào số dòng)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;yy&lt;/td&gt;
+	&lt;td&gt;Nhảy giữa các buffer trên màn hình&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+	&lt;td&gt;xx&lt;/td&gt;
+	&lt;td&gt;Đóng buffer (kill)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;di-chuyển-giữa-các-cửa-sổ-buffer-đang-hiện-trên-màn-hình&quot;&gt;Di chuyển giữa các cửa sổ (buffer đang hiện trên màn hình)&lt;/h3&gt;
+
+&lt;p&gt;Việc này sẽ được thực hiện bằng cách ấn C-c và theo sau là một phím mũi tên.&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Move between windows&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-c &amp;lt;left&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;ss&quot;&gt;'windmove-left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-c &amp;lt;right&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'windmove-right&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-c &amp;lt;up&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;    &lt;span class=&quot;ss&quot;&gt;'windmove-up&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-c &amp;lt;down&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;  &lt;span class=&quot;ss&quot;&gt;'windmove-down&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;thay-đổi-thích-thước-các-cửa-sổ&quot;&gt;Thay đổi thích thước các cửa sổ&lt;/h3&gt;
+
+&lt;p&gt;Việc này được thực hiện bằng cách ấn C-s (phím Ctrl và phím cửa sổ, command) cùng lúc với một phím mũi tên.&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;; Resize windows&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-s-&amp;lt;left&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'shrink-window-horizontally&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-s-&amp;lt;right&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'enlarge-window-horizontally&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-s-&amp;lt;down&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'shrink-window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;global-set-key&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;kbd&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;C-s-&amp;lt;up&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;'enlarge-window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;multiple-cursors-đa-con-trỏ&quot;&gt;Multiple cursors (đa con trỏ)&lt;/h2&gt;
+
+&lt;p&gt;Đây là một trong những chức năng khá hay trong các editor hiện đại giúp lập trình viên chỉnh sửa cùng lúc nhiều dòng code. Việc này được cài đặt trên Emacs bằng cách sử dụng package &lt;a href=&quot;https://github.com/magnars/multiple-cursors.el&quot;&gt;multiple-cursors&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-elisp highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;;;;; MULTIPLE CURSORS ==================================&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;use-package&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;multiple-cursors&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;:bind&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;C-x c&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;mc/edit-lines&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+         &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;C-&amp;gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;mc/mark-next-like-this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+         &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;C-&amp;lt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;mc/mark-previous-like-this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+         &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;C-c C-&amp;lt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;mc/mark-all-like-this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	 &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;C-S-&amp;lt;down-mouse-1&amp;gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;mc/add-cursor-on-click&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+       &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;;;;; ===================================================&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Xem thêm về cách sử dụng và các cấu hình khác tại &lt;a href=&quot;https://github.com/magnars/multiple-cursors.el&quot;&gt;multiple-cursors&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Một demo về sử dụng package này trên Emacs Rocks:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://emacsrocks.com/e13.html&quot;&gt;http://emacsrocks.com/e13.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+  &lt;h4 class=&quot;alert-heading&quot;&gt;Kết&lt;/h4&gt;
+  &lt;p&gt;Trên đây là hướng dẫn cơ bản giúp bạn có được một bản Emacs hoàn chỉnh nhìn khá ổn về giao diện và các chức năng cơ bản. Hãy nhớ khởi động lại Emacs để các package được tải về và cấu hình đúng. Comment bên dưới nếu bạn có góp ý gì cho bài viết của tôi hoặc gặp vấn đề gì với việc cấu hình Emacs.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;
+  Tôi đã xây dựng file cấu hình gồm các thiết lập như ở trên kèm theo nhiều chức năng mới hỗ trợ việc phát triển web, ruby, python... và tối ưu hoá thời gian khởi động. Nếu bạn quan tâm có thể truy cập: &lt;a href=&quot;https://github.com/vietanhdev/VAEmacs-configuration&quot;&gt;https://github.com/vietanhdev/VAEmacs-configuration&lt;/a&gt;
+&lt;/div&gt;</content><author><name>Viet Anh Nguyen</name><email>vietanh@vietanhdev.com</email><uri>https://vietanhdev.com</uri></author><category term="article" /><category term="editor" /><category term="guide" /><category term="Emacs" /><summary type="html">Emacs là một trình soạn thảo văn bản đa chức năng và có thể mở rộng các chức năng một cách mạnh mẽ. Khi chưa cấu hình (tất cả thiết lập để ở mặc định), Emacs có thể coi là trình soạn thảo hơi khó dùng, giao diện khá đơn giản, nếu không nói là xấu. Tuy nhiên khi tuỳ biến bằng các tệp cấu hình, bạn có thể biến Emacs thành bất cứ thứ gì bạn muốn. Đó là lý do Emacs có thể tồn tại được từ lần đầu tiên nó được sinh ra (năm 1976) cho tới nay và luôn là một trong các trình soạn thảo code được nhiều lập trình viên sử dụng nhất. Trong bài viết này tôi sẽ hướng dẫn các bạn cấu hình cơ bản Emacs từ đầu cho tới khi trở thành một trình soạn thảo đem lại cho bạn cảm giác thoải mái.</summary></entry><entry xml:lang="en"><title type="html">Install mysql2 gem on macOS using MAMP as mySQL server</title><link href="https://vietanhdev.com/til/install-mysql2-gem-macos-mamp/" rel="alternate" type="text/html" title="Install mysql2 gem on macOS using MAMP as mySQL server" /><published>2017-08-19T00:00:00+07:00</published><updated>2017-08-19T00:00:00+07:00</updated><id>https://vietanhdev.com/til/install-mysql2-gem-macos-mamp</id><content type="html" xml:base="https://vietanhdev.com/til/install-mysql2-gem-macos-mamp/">&lt;p&gt;When installing &lt;code class=&quot;highlighter-rouge&quot;&gt;mysql2&lt;/code&gt; gem on a system using &lt;a href=&quot;https://www.mamp.info/en/&quot;&gt;MAMP&lt;/a&gt; as mySQL server, you may end up with a compilation error because of incorrect mysql path.&lt;/p&gt;
+
+&lt;p&gt;To deal with this problem, instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install mysql2&lt;/code&gt;, try to specify mysql configuration directory:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install mysql2 -- --with-mysql-config&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;/Applications/MAMP/Library/bin/mysql_config
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name>Viet Anh Nguyen</name><email>vietanh@vietanhdev.com</email><uri>https://vietanhdev.com</uri></author><category term="til" /><category term="mysql" /><category term="WebDev" /><summary type="html">When installing mysql2 gem on a system using MAMP as mySQL server, you may end up with a compilation error because of incorrect mysql path.</summary></entry><entry xml:lang="en"><title type="html">Minify multiple Javascript files in a folder with UglifyJS</title><link href="https://vietanhdev.com/til/minfy-all-js-files-in-folder-with-uglifyjs/" rel="alternate" type="text/html" title="Minify multiple Javascript files in a folder with UglifyJS" /><published>2017-08-17T00:00:00+07:00</published><updated>2017-08-17T00:00:00+07:00</updated><id>https://vietanhdev.com/til/minfy-all-js-files-in-folder-with-uglifyjs</id><content type="html" xml:base="https://vietanhdev.com/til/minfy-all-js-files-in-folder-with-uglifyjs/">&lt;p&gt;To minify multiple Javascript files, you can use &lt;a href=&quot;https://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt;. However, there is a much easier way to archive it using &lt;a href=&quot;http://lisperator.net/uglifyjs/&quot;&gt;UglifyJS&lt;/a&gt; and Bashscript.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-install-uglifyjs&quot;&gt;Step 1: Install UglifyJS&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install -g uglify-js
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;step-2-write-some-bash-script-code-to-find-and-minify-all-js-files-in-a-folder&quot;&gt;Step 2: Write some Bash script code to find and minify all js files in a folder&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;file &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;path/to/js/folder/&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.js; &lt;span class=&quot;k&quot;&gt;do
+    &lt;/span&gt;uglifyjs &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; --stats -c -m  -o &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; 
+    &lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;minified: &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$file&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; 
+&lt;span class=&quot;k&quot;&gt;done&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;step-3-run-script&quot;&gt;Step 3: Run script&lt;/h3&gt;
+
+&lt;p&gt;Save script in Step 2 to a file called ‘minify-js.sh’ and run it using Terminal:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo chmod +x minify-js.sh
+./minify-js.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Modify this code a litte and you can use it with &lt;a href=&quot;https://www.npmjs.com/package/clean-css-cli&quot;&gt;cleancss&lt;/a&gt; or other minifier.&lt;/p&gt;
+
+&lt;p&gt;This code help me much in deploying &lt;a href=&quot;https://vietanhdev.com&quot;&gt;my webiste&lt;/a&gt; (a static site built with Jekyll). Hope it help someone else.&lt;/p&gt;</content><author><name>Viet Anh Nguyen</name><email>vietanh@vietanhdev.com</email><uri>https://vietanhdev.com</uri></author><category term="til" /><category term="javascript" /><category term="jekyll" /><summary type="html">To minify multiple Javascript files, you can use Grunt. However, there is a much easier way to archive it using UglifyJS and Bashscript.</summary></entry><entry xml:lang="vi"><title type="html">Regexp hữu dụng</title><link href="https://vietanhdev.com/til/regexp-huu-ich/" rel="alternate" type="text/html" title="Regexp hữu dụng" /><published>2017-08-15T00:00:00+07:00</published><updated>2017-08-15T00:00:00+07:00</updated><id>https://vietanhdev.com/til/regexp-huu-ich</id><content type="html" xml:base="https://vietanhdev.com/til/regexp-huu-ich/">&lt;p&gt;RegExp (&lt;a href=&quot;https://en.wikipedia.org/wiki/Regular_expression&quot;&gt;Regular Expression&lt;/a&gt; - Biểu thức chính quy) là các đoạn mã biểu diễn một “search pattern” dùng nhiều trong việc tìm kiếm, thay thế, verify dữ liệu trong nhiều ngôn ngữ. Nếu biết tận dụng nó có thể trở thành một công cụ mạnh giúp lập trình viên trong nhiều việc khác nhau.&lt;/p&gt;
+
+&lt;p&gt;Tôi tạo trang này để sưu tập các quy tắc sử dụng Regexp để sử dụng mỗi lần cần tới.&lt;/p&gt;
+
+&lt;h3 id=&quot;basic&quot;&gt;Basic&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;?&lt;/code&gt; : 0-1 kí tự.&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt; : 0-nhiều kí tự.&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt; : một hay nhiều kí tự liên tiếp giống kí tự trước &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt;. “ab+c” match “abc”, “abbc”, “abbbc” nhưng không match với “ac”.&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt; : match kí tự đằng trước n lần.&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;min,&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt; : match kí tự đằng trước ít nhất min lần.&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;min,max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt; : match kí tự đằng trước từ min đến max lần.&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;gray|grey&lt;/code&gt; : “gray” or “grey”.&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;()&lt;/code&gt; : Để nhóm các biểu thức&lt;/p&gt;
+
+&lt;h3 id=&quot;metacharacter-description&quot;&gt;Metacharacter Description&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;^&lt;/code&gt;	: Bắt đầu với&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;.&lt;/code&gt;	: 1 kí tự&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;[ ]&lt;/code&gt; : match 1 kí tự giống 1 trong các kí tự trong ngoặc. “[ab]”, “[a-z]”&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;[^ ]&lt;/code&gt; : match 1 kí tự KHÔNG các kí tự trong ngoặc. “[^ab]”, “[^a-z]”&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;$	&lt;/code&gt; : kí tự cuối&lt;/p&gt;
+
+&lt;h3 id=&quot;specific-characters&quot;&gt;Specific characters&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\s&lt;/code&gt;: space&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;\S&lt;/code&gt;: non-space&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;\b&lt;/code&gt;: match 1 phân cách giữa kí tự word-class (A-Z, a-z, 0-9, _) và kí tự không phải word-class. Giống với &lt;code class=&quot;highlighter-rouge&quot;&gt;(^\w|\w$|\W\w|\w\W)&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;$string1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello World\n&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$string1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;llo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;There is a word that ends with 'llo'.\n&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\w&lt;/code&gt;:  (A-Z, a-z, 0-9, _)&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;\W&lt;/code&gt;: Ngược lại với &lt;code class=&quot;highlighter-rouge&quot;&gt;\w&lt;/code&gt;&lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;\d&lt;/code&gt;: Số &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;\D&lt;/code&gt;: Không phải số &lt;br /&gt;
+&lt;code class=&quot;highlighter-rouge&quot;&gt;\A&lt;/code&gt;: Bắt đầu xâu.&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;$string1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello\nWorld\n&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$string1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;AH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;$string1 is a string &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;that starts with 'H'.\n&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Output:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello
+World
+ is a string that starts with 'H'
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;\z&lt;/code&gt;: Kết thúc xâu&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;$string1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello\nWorld\n&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$string1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=~&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;z&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;$string1 is a string &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;that ends with 'd\\n'.\n&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Output:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello
+World
+ is a string that ends with 'd\n'.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;popular-regexp&quot;&gt;Popular RegExp&lt;/h3&gt;
+
+&lt;p&gt;Mã màu hex : &lt;code class=&quot;highlighter-rouge&quot;&gt;\#([a-fA-F]|[0-9]){3, 6}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Email: &lt;code class=&quot;highlighter-rouge&quot;&gt;/[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}/igm&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Tên miền từ URL: &lt;code class=&quot;highlighter-rouge&quot;&gt;/https?:\/\/(?:[-\w]+\.)?([-\w]+)\.\w+(?:\.\w+)?\/?.*/i&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Lấy link ảnh từ thẻ img: &lt;code class=&quot;highlighter-rouge&quot;&gt;\&amp;lt; *[img][^\&amp;gt;]*[src] *= *[\&quot;\']{0,1}([^\&quot;\'\ &amp;gt;]*)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Kiểm tra đuôi file: &lt;code class=&quot;highlighter-rouge&quot;&gt;/^(.*\.(?!(htm|html|class|js)$))?[^.]*$/i&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Để xoá nguyên 1 dòng bắt đầu với “start”, tìm: &lt;code class=&quot;highlighter-rouge&quot;&gt;/^start.*\n/&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;useful-links&quot;&gt;Useful Links:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tạo, xem, kiểm tra Regexp: &lt;a href=&quot;http://regexr.com/&quot;&gt;http://regexr.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Viet Anh Nguyen</name><email>vietanh@vietanhdev.com</email><uri>https://vietanhdev.com</uri></author><category term="til" /><category term="code" /><category term="regexp" /><summary type="html">RegExp (Regular Expression - Biểu thức chính quy) là các đoạn mã biểu diễn một “search pattern” dùng nhiều trong việc tìm kiếm, thay thế, verify dữ liệu trong nhiều ngôn ngữ. Nếu biết tận dụng nó có thể trở thành một công cụ mạnh giúp lập trình viên trong nhiều việc khác nhau.</summary></entry><entry><title type="html">Một cách nhập xâu kí tự trong C - giải quyết vấn đề của fflush cho Linux, Mac OS</title><link href="https://vietanhdev.com/articles/nhap-xau-ki-tu-trong-c-linux-mac-windows/" rel="alternate" type="text/html" title="Một cách nhập xâu kí tự trong C - giải quyết vấn đề của fflush cho Linux, Mac OS" /><published>2017-05-30T00:00:00+07:00</published><updated>2017-05-30T00:00:00+07:00</updated><id>https://vietanhdev.com/articles/nhap-xau-ki-tu-trong-c-linux-mac-windows</id><content type="html" xml:base="https://vietanhdev.com/articles/nhap-xau-ki-tu-trong-c-linux-mac-windows/">&lt;p&gt;Khi lập trình C trên Windows, bạn có thể sử dụng &lt;code class=&quot;highlighter-rouge&quot;&gt;fflush()&lt;/code&gt; để làm sạch bộ đệm trước khi nhập một xâu, tránh tình trạng “lạc trôi” của lệnh nhập xâu. Tuy nhiên khi làm việc với các hệ thống khác như Linux, hay Mac OS, mọi chuyện không đơn giản nữa: nhiều khi &lt;code class=&quot;highlighter-rouge&quot;&gt;fflush()&lt;/code&gt; sẽ không làm việc. Bài viết này sẽ cho bạn một cách giải quyết đơn giản có thể chạy được trên cả Linux, Mac OS và cả Windows.&lt;/p&gt;
+
+&lt;h2 id=&quot;vấn-đề-gì-khi-không-sử-dụng-fflush-và-cả-khi-sử-dụng-nó&quot;&gt;Vấn đề gì khi không sử dụng &lt;code class=&quot;highlighter-rouge&quot;&gt;fflush()&lt;/code&gt; và cả khi sử dụng nó?&lt;/h2&gt;
+
+&lt;h3 id=&quot;không-sử-dụng-fflush-và-các-phương-pháp-thay-thế&quot;&gt;Không sử dụng &lt;code class=&quot;highlighter-rouge&quot;&gt;fflush()&lt;/code&gt; (và các phương pháp thay thế):&lt;/h3&gt;
+&lt;p&gt;Hãy xem xét đoạn chương trình sau:&lt;/p&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[])&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;c = &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scanf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;s = &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;fgets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stdin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strlen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// xoá kí tự '\n' ở cuối khi nhập bằng fgets
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strlen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'\n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strlen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;c = %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;s = %s&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Khi chạy chương trình ta thu được kết quả sau:&lt;/p&gt;
+
+&lt;noscript&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/ngon-ngu-c/troi-lenh-trong-c.png&quot; alt=&quot;Trôi lệnh trong C - không có fflush&quot; src=&quot;https://vietanhdev.com/assets/images/ngon-ngu-c/troi-lenh-trong-c.png&quot; /&gt;&lt;/noscript&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/ngon-ngu-c/troi-lenh-trong-c.png&quot; alt=&quot;Trôi lệnh trong C - không có fflush&quot; class=&quot; lazyload lazyload-hidden&quot; src=&quot;/assets/images/loading.svg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Rõ ràng xâu s đã không được nhập vào. Vấn đề này xảy ra do khi nhập c bằng &lt;code class=&quot;highlighter-rouge&quot;&gt;scanf()&lt;/code&gt; thì kí tự &lt;code class=&quot;highlighter-rouge&quot;&gt;\n&lt;/code&gt; vẫn còn lưu trong bộ đệm bàn phím. Khi lệnh nhập s (&lt;code class=&quot;highlighter-rouge&quot;&gt;fgets&lt;/code&gt;) chạy, nó gặp kí tự &lt;code class=&quot;highlighter-rouge&quot;&gt;\n&lt;/code&gt; trong bộ đệm do vậy trả luôn về một xâu chỉ chứa &lt;code class=&quot;highlighter-rouge&quot;&gt;\n&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;vậy-khi-sử-dụng-fflush-để-làm-sạch-bộ-đệm-thì-có-vấn-đề-gì&quot;&gt;Vậy khi sử dụng &lt;code class=&quot;highlighter-rouge&quot;&gt;fflush()&lt;/code&gt; để làm sạch bộ đệm thì có vấn đề gì?&lt;/h3&gt;
+&lt;p&gt;Bạn có thể giải quyết vấn đề trôi lệnh trên Windows bằng cách thêm một lệnh &lt;code class=&quot;highlighter-rouge&quot;&gt;fflush()&lt;/code&gt; vào trước &lt;code class=&quot;highlighter-rouge&quot;&gt;fgets()&lt;/code&gt;. Tuy vậy khi chuyển chương trình sang Linux hoặc Mac OS thì nhiều khi lệnh này sẽ không còn hoạt động.&lt;/p&gt;
+
+&lt;h2 id=&quot;phương-pháp-nhập-xâu-trong-c&quot;&gt;Phương pháp nhập xâu trong C:&lt;/h2&gt;
+
+&lt;p&gt;Google một thời gian tôi cũng tìm được câu trả lời cho phương pháp nhập xâu trong các hệ thống ngoài Windows. Đơn giản là bạn thêm đoạn lệnh sau khi trong bộ đệm vẫn còn kí tự &lt;code class=&quot;highlighter-rouge&quot;&gt;\n&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getchar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'\n'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EOF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Sử dụng trong chương trình bên trên thì có vẻ khá ổn. Tuy nhiên nếu trước đó không có số nguyên c được nhập thì sao? Có vẻ không ổn rồi! - Chương trình sẽ dừng lại, nhận vào một kí tự rồi mới tiếp tục chạy.&lt;/p&gt;
+
+&lt;p&gt;Vậy cách giải quyết thế nào? Tôi xin đưa ra cách tôi đã dùng:&lt;/p&gt;
+
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;string.h&amp;gt;
+#include &amp;lt;stdio.h&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;removeLastEnter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strlen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strlen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'\n'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strlen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sc&quot;&gt;'\0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;readLn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;FILE&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;max_len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fgets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;max_len&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// already read sth
+&lt;/span&gt;        &lt;span class=&quot;c1&quot;&gt;// Re-read line if it contain only enter character
+&lt;/span&gt;        &lt;span class=&quot;n&quot;&gt;removeLastEnter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strlen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;readLn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;max_len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[])&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;c = &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scanf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;s = &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;readLn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stdin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;c = %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;s = %s&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Hàm &lt;code class=&quot;highlighter-rouge&quot;&gt;readLn()&lt;/code&gt; sẽ giúp nhập vào một xâu (s) từ bàn phím (độ dài lớn nhất là 100). Quá trình nhập xâu không bị ảnh hưởng nếu có sẵn một kí tự &lt;code class=&quot;highlighter-rouge&quot;&gt;\n&lt;/code&gt; trong bộ đệm bàn phím từ trước và sẽ chỉ dừng lại khi nhận vào một xâu có độ dài &amp;gt; 0.&lt;/p&gt;
+
+&lt;p&gt;Đây là cách làm tôi sử dụng trong chương trình của mình. Nếu bạn có cách làm khác hoặc góp ý gì với cách làm này, hãy để lại comment bên dưới!&lt;/p&gt;</content><author><name>Viet Anh Nguyen</name><email>vietanh@vietanhdev.com</email><uri>https://vietanhdev.com</uri></author><category term="article" /><category term="C-Language" /><category term="stdin" /><category term="fflush" /><category term="fgets" /><summary type="html">Khi lập trình C trên Windows, bạn có thể sử dụng fflush() để làm sạch bộ đệm trước khi nhập một xâu, tránh tình trạng “lạc trôi” của lệnh nhập xâu. Tuy nhiên khi làm việc với các hệ thống khác như Linux, hay Mac OS, mọi chuyện không đơn giản nữa: nhiều khi fflush() sẽ không làm việc. Bài viết này sẽ cho bạn một cách giải quyết đơn giản có thể chạy được trên cả Linux, Mac OS và cả Windows.</summary></entry><entry><title type="html">Lấy địa chỉ IP thật của client trên Heroku với Nodejs</title><link href="https://vietanhdev.com/articles/lay-dia-chi-ip-that-client-nodejs-heroku/" rel="alternate" type="text/html" title="Lấy địa chỉ IP thật của client trên Heroku với Nodejs" /><published>2017-05-27T22:30:00+07:00</published><updated>2017-05-27T22:30:00+07:00</updated><id>https://vietanhdev.com/articles/lay-dia-chi-ip-that-client-nodejs-heroku</id><content type="html" xml:base="https://vietanhdev.com/articles/lay-dia-chi-ip-that-client-nodejs-heroku/">&lt;p&gt;Khi sử dụng Express js của Nodejs, bạn đơn giản chỉ cần sử dụng &lt;code class=&quot;highlighter-rouge&quot;&gt;req.ip&lt;/code&gt; để lấy IP người dùng. Tuy thế, khi bạn ứng dụng của chúng ta được host trên &lt;a href=&quot;https://dashboard.heroku.com/&quot;&gt;Heroku&lt;/a&gt; thì việc lấy IP thế này sẽ cho kết quả sai, đơn giản vì Heroku thực hiện một số routing khiến IP bạn nhận được là IP của router Heroku hoặc proxy. Vậy chúng ta nên làm thế nào?&lt;/p&gt;
+
+&lt;p&gt;Heroku đã đính kèm header &lt;code class=&quot;highlighter-rouge&quot;&gt;x-forwarded-for&lt;/code&gt; vào các request với từ người dùng. Nội dung của nó là một danh sách IP ngăn cách bằng dấu phẩy (,). Tất cả những gì chúng ta cần là split chúng thành một mảng và lấy phần tử cuối cùng (IP thật từ client).&lt;/p&gt;
+
+&lt;p&gt;Vậy là trong app, ta cần thêm hàm sau để lấy IP thật&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getIP&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;ipAddr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;x-forwarded-for&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ipAddr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ipAddr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;,&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;ipAddr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;ipAddr&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;connection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;remoteAddress&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ipAddr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Với đoạn mã này bạn có thể dùng trong các ứng dụng thống kê truy cập website, thu thập thông tin từ contact form (muốn lấy thêm IP người dùng).&lt;/p&gt;</content><author><name>Viet Anh Nguyen</name><email>vietanh@vietanhdev.com</email><uri>https://vietanhdev.com</uri></author><category term="article" /><category term="WebDev" /><category term="Heroku" /><category term="Nodejs" /><category term="IP" /><summary type="html">Khi sử dụng Express js của Nodejs, bạn đơn giản chỉ cần sử dụng req.ip để lấy IP người dùng. Tuy thế, khi bạn ứng dụng của chúng ta được host trên Heroku thì việc lấy IP thế này sẽ cho kết quả sai, đơn giản vì Heroku thực hiện một số routing khiến IP bạn nhận được là IP của router Heroku hoặc proxy. Vậy chúng ta nên làm thế nào?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://vietanhdev.com/assets/images/webdev/heroku-nodejs.png" /></entry><entry><title type="html">Tạo contact form đơn giản với Nodejs - nodemailer</title><link href="https://vietanhdev.com/articles/tao-contact-form-don-gian-voi-nodejs-nodemailer/" rel="alternate" type="text/html" title="Tạo contact form đơn giản với Nodejs - nodemailer" /><published>2017-05-27T00:00:00+07:00</published><updated>2017-05-27T00:00:00+07:00</updated><id>https://vietanhdev.com/articles/tao-contact-form-don-gian-voi-nodejs-nodemailer</id><content type="html" xml:base="https://vietanhdev.com/articles/tao-contact-form-don-gian-voi-nodejs-nodemailer/">&lt;p&gt;Nếu website của bạn sử dụng một CMS như &lt;a href=&quot;https://wordpress.org/&quot;&gt;Wordpress&lt;/a&gt; thì việc tạo contact form đã khá dễ dàng với các plug-in. Tuy nhiên nếu bạn đang có một website tĩnh, bạn sẽ cần một dịch vụ để xử lí các form liên hệ của bạn. Bài viết này sẽ hướng dẫn bạn tự tạo một backend đơn giản để xử lí các form liên hệ.&lt;/p&gt;
+
+&lt;p&gt;Form liên hệ của chúng ta sẽ hoạt động theo các nhận request từ  form theo method POST và gửi chúng đến email chính bằng &lt;a href=&quot;https://nodemailer.com/about/&quot;&gt;nodemailer&lt;/a&gt; của Nodejs.&lt;/p&gt;
+
+&lt;aside&gt;
+&lt;nav class=&quot;toc&quot;&gt;
+    &lt;header&gt;&lt;h4&gt;&lt;span class=&quot;oi oi-file&quot;&gt;&lt;/span&gt; Contents &lt;/h4&gt;&lt;/header&gt;
+&lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-1-cài-đặt-nodejs&quot; id=&quot;markdown-toc-step-1-cài-đặt-nodejs&quot;&gt;Step 1: Cài đặt Nodejs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-2-tạo-project-mới-có-thể-là-mail-gate&quot; id=&quot;markdown-toc-step-2-tạo-project-mới-có-thể-là-mail-gate&quot;&gt;Step 2: Tạo Project mới (có thể là mail-gate)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-3-viết-code-nodejs&quot; id=&quot;markdown-toc-step-3-viết-code-nodejs&quot;&gt;Step 3: Viết code Nodejs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-4-deploy-lên-heroku&quot; id=&quot;markdown-toc-step-4-deploy-lên-heroku&quot;&gt;Step 4: Deploy lên heroku:&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-5-sử-dụng-backend-đã-tạo-với-một-contact-form&quot; id=&quot;markdown-toc-step-5-sử-dụng-backend-đã-tạo-với-một-contact-form&quot;&gt;Step 5: Sử dụng backend đã tạo với một contact form:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/nav&gt;
+&lt;/aside&gt;
+
+&lt;h2 id=&quot;step-1-cài-đặt-nodejs&quot;&gt;Step 1: Cài đặt Nodejs&lt;/h2&gt;
+
+&lt;p&gt;Trước tiên bạn cần phải cài đặt Nodejs bằng cách truy cập vào trang chủ để tải về và cài đặt: &lt;a href=&quot;https://nodejs.org/en/&quot;&gt;https://nodejs.org/en/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Nếu bạn đang dùng Ubuntu/Debian hay một hệ linux phổ biến khác thì Nodejs cũng có mặt trên kho phần mềm và có thể dễ dàng cài đặt bằng lệnh đơn giản như &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt-get install nodejs&lt;/code&gt; (Ubuntu Linux).&lt;/p&gt;
+
+&lt;h2 id=&quot;step-2-tạo-project-mới-có-thể-là-mail-gate&quot;&gt;Step 2: Tạo Project mới (có thể là mail-gate)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tạo một thư mục với tên dự án của bạn.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Dùng lệnh &lt;code class=&quot;highlighter-rouge&quot;&gt;npm init&lt;/code&gt; trong thư mục và nhập các thông tin.s&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;step-3-viết-code-nodejs&quot;&gt;Step 3: Viết code Nodejs&lt;/h2&gt;
+
+&lt;p&gt;Copy đoạn code sau vào file &lt;code class=&quot;highlighter-rouge&quot;&gt;index.js&lt;/code&gt;. Bạn sửa phần &lt;code class=&quot;highlighter-rouge&quot;&gt;smtpConfig&lt;/code&gt; là cấu hình chúng ta dùng để gửi mail. Bạn có thể đăng kí một tài khoản Gmail mới và nhập vào đó.&lt;/p&gt;
+
+&lt;p&gt;Bạn cũng cần chỉnh sửa phần &lt;code class=&quot;highlighter-rouge&quot;&gt;smtpTransport.sendMail&lt;/code&gt; và điền vào đó tên và email của bạn. Ví dụ: &lt;code class=&quot;highlighter-rouge&quot;&gt;Việt Anh &amp;lt;abc@vietanhdev.com&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nodemailer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;nodemailer&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;http&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'http'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bodyParser&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'body-parser'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;express&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'express'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;express&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;request&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bodyParser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;bodyParser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;urlencoded&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;extended&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}));&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;server&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createServer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+
+&lt;span class=&quot;c1&quot;&gt;// Nhận request từ tất cả các nguồn&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Website you wish to allow to connect&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setHeader&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Access-Control-Allow-Origin'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'*'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Pass to next layer of middleware&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+
+&lt;span class=&quot;c1&quot;&gt;// Homepage&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Home page. Server running okay.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+
+&lt;span class=&quot;c1&quot;&gt;// Đường dẫn xử lí form&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/contact'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;h1&amp;gt;We have new submission from your website!&amp;lt;/h1&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// Lấy tất cả các giá trị tham số từ POST request&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;b&amp;gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;/b&amp;gt; :  '&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'  &amp;lt;/br&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;b&amp;gt;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;/b&amp;gt; :  '&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;req&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'  &amp;lt;/br&amp;gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// Trả về kết quả dưới dạng JSON&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;res&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;success&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;ok&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// Khai báo cấu hình gửi mail&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;smtpConfig&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'smtp.gmail.com'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;587&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;secure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// upgrade later with STARTTLS&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;auth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;username&amp;gt;@gmail.com'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;pass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;lt;pass&amp;gt;'&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// Gửi mail&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;smtpTransport&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nodemailer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createTransport&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;smtpConfig&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;smtpTransport&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;sendMail&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;//email options&lt;/span&gt;
+       &lt;span class=&quot;na&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;MailGate by Viet Anh &amp;lt;xxxxxx@gmail.com&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+       &lt;span class=&quot;na&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Tên Của Bạn &amp;lt;email của bạn&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// receiver&lt;/span&gt;
+       &lt;span class=&quot;na&quot;&gt;subject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Có tin nhắn mới từ website của bạn!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// subject&lt;/span&gt;
+       &lt;span class=&quot;na&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// body&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;//callback&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+               &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+               &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Đã gửi mail!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+        &lt;span class=&quot;nx&quot;&gt;smtpTransport&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;close&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; 
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;port&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;PORT&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;listen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Server is running! port : &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;step-4-deploy-lên-heroku&quot;&gt;Step 4: Deploy lên heroku:&lt;/h2&gt;
+
+&lt;p&gt;Bạn có thể deploy đoạn mã này lên bất cứ server hoặc dịch vụ nào bạn có. Ở đây tôi hướng dẫn các bạn deploy lên &lt;a href=&quot;https://heroku.com&quot;&gt;Heroku&lt;/a&gt; vì nó khá đơn giản và miễn phí.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Trước tiên đăng kí tài khoản Heroku.&lt;/li&gt;
+  &lt;li&gt;Tạo 1 app.&lt;/li&gt;
+  &lt;li&gt;Cài Heroku CLI lên máy của bạn: &lt;a href=&quot;https://devcenter.heroku.com/articles/heroku-cli&quot;&gt;Xem hướng dẫn&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Deploy bằng Heroku CLI:
+    &lt;ul&gt;
+      &lt;li&gt;Đăng nhập: &lt;code class=&quot;highlighter-rouge&quot;&gt;heroku login&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Khởi tạo git: Thay &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ten-app-cua-ban&amp;gt;&lt;/code&gt;  bằng tên app vừa tạo. Ví dụ: &lt;code class=&quot;highlighter-rouge&quot;&gt;mail-gate-by-va&lt;/code&gt;.
+        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git init
+heroku git:remote -a &amp;lt;ten-app-cua-ban&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Commit và deploy lên heroku:
+        &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add .
+git commit -am &lt;span class=&quot;s2&quot;&gt;&quot;make it better&quot;&lt;/span&gt;
+git push heroku master
+&lt;/code&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Check xem app của bạn đã hoạt động ok chưa bằng các vào &lt;code class=&quot;highlighter-rouge&quot;&gt;https://&amp;lt;ten-app-cua-ban&amp;gt;.herokuapp.com/&lt;/code&gt; bằng trình duyệt. Nếu bạn nhìn thấy dòng “Home page. Server running okay.” thì mọi thứ đã hoạt động tốt.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;noscript&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/webdev/homepage-running-ok.png&quot; alt=&quot;Hompage running okay&quot; src=&quot;https://vietanhdev.com/assets/images/webdev/homepage-running-ok.png&quot; /&gt;&lt;/noscript&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/webdev/homepage-running-ok.png&quot; alt=&quot;Hompage running okay&quot; class=&quot; lazyload lazyload-hidden&quot; src=&quot;/assets/images/loading.svg&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-5-sử-dụng-backend-đã-tạo-với-một-contact-form&quot;&gt;Step 5: Sử dụng backend đã tạo với một contact form:&lt;/h2&gt;
+
+&lt;p&gt;Việc gửi dữ liệu có thể được thực hiện với một contact form đơn giản thế này:&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Contact form&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;form&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;contact-form&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;method=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;POST&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;action=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://&amp;lt;ten-app-cua-ban&amp;gt;.herokuapp.com/contact&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;email&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;email&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;placeholder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Email&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;website&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;placeholder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Tên bạn&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;textarea&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;message&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rows=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;8&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;placeholder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Nội dung tin nhắn&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/textarea&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;submit&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn-primary&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;value=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Send / Gửi đi&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/input&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/form&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Hình ảnh email nhận được sau khi nhập form liên hệ:&lt;/p&gt;
+
+&lt;noscript&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/webdev/mail-gate-sent-mail.png&quot; alt=&quot;Mail Gate by Viet Anh&quot; src=&quot;https://vietanhdev.com/assets/images/webdev/mail-gate-sent-mail.png&quot; /&gt;&lt;/noscript&gt;
+&lt;p&gt;&lt;img data-src=&quot;https://vietanhdev.com/assets/images/webdev/mail-gate-sent-mail.png&quot; alt=&quot;Mail Gate by Viet Anh&quot; class=&quot; lazyload lazyload-hidden&quot; src=&quot;/assets/images/loading.svg&quot; /&gt;&lt;/p&gt;</content><author><name>Viet Anh Nguyen</name><email>vietanh@vietanhdev.com</email><uri>https://vietanhdev.com</uri></author><category term="article" /><category term="WebDev" /><category term="Contact form" /><category term="Nodejs" /><category term="nodemailer" /><category term="Jekyll" /><summary type="html">Nếu website của bạn sử dụng một CMS như Wordpress thì việc tạo contact form đã khá dễ dàng với các plug-in. Tuy nhiên nếu bạn đang có một website tĩnh, bạn sẽ cần một dịch vụ để xử lí các form liên hệ của bạn. Bài viết này sẽ hướng dẫn bạn tự tạo một backend đơn giản để xử lí các form liên hệ.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://vietanhdev.com/assets/images/webdev/contact-me.jpg" /></entry><entry><title type="html">Cài Certbot cho Raspbian Jessie</title><link href="https://vietanhdev.com/articles/cai-certbot-Raspbian-Jessie/" rel="alternate" type="text/html" title="Cài Certbot cho Raspbian Jessie" /><published>2017-05-24T00:00:00+07:00</published><updated>2017-05-24T00:00:00+07:00</updated><id>https://vietanhdev.com/articles/cai-certbot-Raspbian%20Jessie</id><content type="html" xml:base="https://vietanhdev.com/articles/cai-certbot-Raspbian-Jessie/">&lt;p&gt;&lt;a href=&quot;https://certbot.eff.org/&quot;&gt;Certbot&lt;/a&gt; là package phía server sử dụng để lấy và deploy chứng chỉ SSL/TSL một cách tự động. Nó giúp setup một kết nối HTTPS cho máy chủ chỉ trong một nốt nhạc và hoàn toàn miễn phí với &lt;a href=&quot;https://letsencrypt.org/&quot;&gt;Let’s Encrypt&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Việc cài đặt package Certbot cho &lt;a href=&quot;https://www.raspbian.org/&quot;&gt;Raspbian&lt;/a&gt;(hệ điều hành cho máy tính Raspberry Pi) có thể gặp lỗi “Unable to locate package certbot”. Trên Raspbian, cần cài đặt Certbot như một gói &lt;a href=&quot;https://backports.debian.org/&quot;&gt;backport&lt;/a&gt;.&lt;/p&gt;
+
+&lt;aside&gt;
+&lt;nav class=&quot;toc&quot;&gt;
+    &lt;header&gt;&lt;h4&gt;&lt;span class=&quot;oi oi-file&quot;&gt;&lt;/span&gt; Contents &lt;/h4&gt;&lt;/header&gt;
+&lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-1-thêm-nguồn-backport-debian-jessie&quot; id=&quot;markdown-toc-step-1-thêm-nguồn-backport-debian-jessie&quot;&gt;Step 1: Thêm nguồn backport Debian Jessie:&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-2-apt-get-update&quot; id=&quot;markdown-toc-step-2-apt-get-update&quot;&gt;Step 2: apt-get update&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-3-cài-certbot&quot; id=&quot;markdown-toc-step-3-cài-certbot&quot;&gt;Step 3: Cài Certbot&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/nav&gt;
+&lt;/aside&gt;
+
+&lt;h2 id=&quot;step-1-thêm-nguồn-backport-debian-jessie&quot;&gt;Step 1: Thêm nguồn backport Debian Jessie:&lt;/h2&gt;
+
+&lt;p&gt;Mở Terminal. Các lệnh chạy bằng quyền root nên ta chạy&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;su
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Tiếp theo thêm nguồn backport&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;deb http://ftp.debian.org/debian jessie-backports main&quot;&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt; &lt;/span&gt;/etc/apt/sources.list.d/backports.list
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;step-2-apt-get-update&quot;&gt;Step 2: apt-get update&lt;/h2&gt;
+
+&lt;p&gt;Tôi gặp lỗi như sau khi chạy &lt;code class=&quot;highlighter-rouge&quot;&gt;apt-get update&lt;/code&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;W: GPG error: http://ftp.debian.org jessie-backports InRelease: The following signatures couldn’t be verified because the public key is not available: NO_PUBKEY 8B48AD6246925553 NO_PUBKEY 7638D0442B90D010&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Hai khoá “8B48AD6246925553”, “7638D0442B90D010” hiện ở thông báo lỗi cần được thêm vào gpg keyring.&lt;/p&gt;
+
+&lt;p&gt;Chạy liên tiếp các lệnh:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gpg --keyserver pgpkeys.mit.edu --recv-key 8B48AD6246925553
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gpg -a --export 8B48AD6246925553 | sudo apt-key add -
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gpg --keyserver pgpkeys.mit.edu --recv-key 7638D0442B90D010
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gpg -a --export 7638D0442B90D010 | sudo apt-key add -
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Sau đó update package list:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt-get update
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;step-3-cài-certbot&quot;&gt;Step 3: Cài Certbot&lt;/h2&gt;
+
+&lt;p&gt;Cài Certbot bằng lệnh:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt-get install certbot -t jessie-backports
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name>Viet Anh Nguyen</name><email>vietanh@vietanhdev.com</email><uri>https://vietanhdev.com</uri></author><category term="article" /><category term="WebDev" /><category term="Raspbian" /><category term="Server" /><category term="Certbot" /><category term="LetsEncrypt" /><summary type="html">Certbot là package phía server sử dụng để lấy và deploy chứng chỉ SSL/TSL một cách tự động. Nó giúp setup một kết nối HTTPS cho máy chủ chỉ trong một nốt nhạc và hoàn toàn miễn phí với Let’s Encrypt.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://vietanhdev.com/assets/images/webdev/lets-encrypt.png" /></entry><entry><title type="html">Một số kĩ thuật xử lí tiếng Việt trong Javascript</title><link href="https://vietanhdev.com/articles/xu-li-tieng-viet-javascript/" rel="alternate" type="text/html" title="Một số kĩ thuật xử lí tiếng Việt trong Javascript" /><published>2017-03-29T00:00:00+07:00</published><updated>2017-03-29T00:00:00+07:00</updated><id>https://vietanhdev.com/articles/xu-li-tieng-viet-javascript</id><content type="html" xml:base="https://vietanhdev.com/articles/xu-li-tieng-viet-javascript/">&lt;p&gt;Các kĩ thuật xử lí sau sẽ giúp chúng ta thao tác với tiếng Việt dễ dàng hơn mà không cần mất công xây dựng lại.&lt;/p&gt;
+
+&lt;aside&gt;
+&lt;nav class=&quot;toc&quot;&gt;
+    &lt;header&gt;&lt;h4&gt;&lt;span class=&quot;oi oi-file&quot;&gt;&lt;/span&gt; Contents &lt;/h4&gt;&lt;/header&gt;
+&lt;ul class=&quot;toc__menu&quot; id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#xoá-dấu-tiếng-việt&quot; id=&quot;markdown-toc-xoá-dấu-tiếng-việt&quot;&gt;Xoá dấu tiếng Việt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#loại-bỏ-tất-cả-các-kí-tự-không-phải-chữ-cái-và-số&quot; id=&quot;markdown-toc-loại-bỏ-tất-cả-các-kí-tự-không-phải-chữ-cái-và-số&quot;&gt;Loại bỏ tất cả các kí tự không phải chữ cái và số&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#xoá-dấu-cách-thừa&quot; id=&quot;markdown-toc-xoá-dấu-cách-thừa&quot;&gt;Xoá dấu cách thừa&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/nav&gt;
+&lt;/aside&gt;
+
+&lt;h3 id=&quot;xoá-dấu-tiếng-việt&quot;&gt;Xoá dấu tiếng Việt&lt;/h3&gt;
+
+&lt;p&gt;Hàm xoa_dau() sau sẽ xoá loại bỏ hoàn toàn dấu câu tiếng Việt, không phân biệt hoa thường.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;xoa_dau&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;e&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/ì|í|ị|ỉ|ĩ/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;i&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;o&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;u&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/ỳ|ý|ỵ|ỷ|ỹ/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;y&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/đ/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;d&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/À|Á|Ạ|Ả|Ã|Â|Ầ|Ấ|Ậ|Ẩ|Ẫ|Ă|Ằ|Ắ|Ặ|Ẳ|Ẵ/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/È|É|Ẹ|Ẻ|Ẽ|Ê|Ề|Ế|Ệ|Ể|Ễ/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;E&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/Ì|Í|Ị|Ỉ|Ĩ/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;I&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/Ò|Ó|Ọ|Ỏ|Õ|Ô|Ồ|Ố|Ộ|Ổ|Ỗ|Ơ|Ờ|Ớ|Ợ|Ở|Ỡ/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;O&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/Ù|Ú|Ụ|Ủ|Ũ|Ư|Ừ|Ứ|Ự|Ử|Ữ/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;U&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/Ỳ|Ý|Ỵ|Ỷ|Ỹ/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Y&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/Đ/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;D&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;loại-bỏ-tất-cả-các-kí-tự-không-phải-chữ-cái-và-số&quot;&gt;Loại bỏ tất cả các kí tự không phải chữ cái và số&lt;/h3&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;[^&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;0-9a-zàáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\s]&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/gi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;xoá-dấu-cách-thừa&quot;&gt;Xoá dấu cách thừa&lt;/h3&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Gộp nhiều dấu space thành 1 space&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\s&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;+/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;' '&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// loại bỏ toàn bộ dấu space (nếu có) ở 2 đầu của xâu&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;trim&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name>Viet Anh Nguyen</name><email>vietanh@vietanhdev.com</email><uri>https://vietanhdev.com</uri></author><category term="article" /><category term="WebDev" /><category term="javascript" /><category term="ngôn ngữ" /><category term="tiếng Việt" /><summary type="html">Các kĩ thuật xử lí sau sẽ giúp chúng ta thao tác với tiếng Việt dễ dàng hơn mà không cần mất công xây dựng lại.</summary></entry></feed>

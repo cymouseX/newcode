@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Viet-Anh Nguyen</title>
+    <description>The website of Viet Anh Nguyen - Developer - Hacker - Lifelong Learner</description>
+    <link>https://vietanhdev.com</link>
+    <atom:link href="https://vietanhdev.com/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Website chuyển tiếng Việt sang kiểu viết mới dựa theo PGS TS Bùi Hiền</title>
+        <description>
+          
+          Gần đây PGS.TS Bùi Hiền, Nguyên Hiệu phó trường ĐHSP Ngoại ngữ Hà Nội đã đề xuất cải tiến bảng chữ cái tiếng Việt như chuyển cách viết Luật giáo dục” đổi thành “Luật záo zụk”. “Tiếng Việt” thành “Tiếq Việt”, “ngôn ngữ” thành “Qôn qữ”… . Phương pháp này...
+        </description>
+        <pubDate>Mon, 27 Nov 2017 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/articles/webiste-chuyen-tieng-viet-sang-kieu-viet-moi/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/webiste-chuyen-tieng-viet-sang-kieu-viet-moi/</guid>
+      </item>
+    
+      <item>
+        <title>Xây dựng một cấu hình Emacs từ đầu</title>
+        <description>
+          
+          Emacs là một trình soạn thảo văn bản đa chức năng và có thể mở rộng các chức năng một cách mạnh mẽ. Khi chưa cấu hình (tất cả thiết lập để ở mặc định), Emacs có thể coi là trình soạn thảo hơi khó dùng, giao diện khá đơn...
+        </description>
+        <pubDate>Fri, 25 Aug 2017 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/articles/tu-viet-mot-file-cau-hinh-Emacs/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/tu-viet-mot-file-cau-hinh-Emacs/</guid>
+      </item>
+    
+      <item>
+        <title>Install mysql2 gem on macOS using MAMP as mySQL server</title>
+        <description>
+          
+          When installing mysql2 gem on a system using MAMP as mySQL server, you may end up with a compilation error because of incorrect mysql path.
+
+To deal with this problem, instead of gem install mysql2, try to specify mysql configuration directory:
+
+gem install mysql2 -- --with-mysql-config=/Applications/MAMP/Library/bin/mysql_config
+
+
+
+        </description>
+        <pubDate>Sat, 19 Aug 2017 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/til/install-mysql2-gem-macos-mamp/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/til/install-mysql2-gem-macos-mamp/</guid>
+      </item>
+    
+      <item>
+        <title>Minify multiple Javascript files in a folder with UglifyJS</title>
+        <description>
+          
+          To minify multiple Javascript files, you can use Grunt. However, there is a much easier way to archive it using UglifyJS and Bashscript. Step 1: Install UglifyJS npm install -g uglify-js Step 2: Write some Bash script code to find and minify all js files in a folder for file...
+        </description>
+        <pubDate>Thu, 17 Aug 2017 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/til/minfy-all-js-files-in-folder-with-uglifyjs/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/til/minfy-all-js-files-in-folder-with-uglifyjs/</guid>
+      </item>
+    
+      <item>
+        <title>Regexp hữu dụng</title>
+        <description>
+          
+          RegExp (Regular Expression - Biểu thức chính quy) là các đoạn mã biểu diễn một “search pattern” dùng nhiều trong việc tìm kiếm, thay thế, verify dữ liệu trong nhiều ngôn ngữ. Nếu biết tận dụng nó có thể trở thành một công cụ mạnh giúp lập trình viên trong...
+        </description>
+        <pubDate>Tue, 15 Aug 2017 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/til/regexp-huu-ich/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/til/regexp-huu-ich/</guid>
+      </item>
+    
+      <item>
+        <title>Một cách nhập xâu kí tự trong C - giải quyết vấn đề của fflush cho Linux, Mac OS</title>
+        <description>
+          
+          Khi lập trình C trên Windows, bạn có thể sử dụng fflush() để làm sạch bộ đệm trước khi nhập một xâu, tránh tình trạng “lạc trôi” của lệnh nhập xâu. Tuy nhiên khi làm việc với các hệ thống khác như Linux, hay Mac OS, mọi chuyện không đơn...
+        </description>
+        <pubDate>Tue, 30 May 2017 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/articles/nhap-xau-ki-tu-trong-c-linux-mac-windows/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/nhap-xau-ki-tu-trong-c-linux-mac-windows/</guid>
+      </item>
+    
+      <item>
+        <title>Lấy địa chỉ IP thật của client trên Heroku với Nodejs</title>
+        <description>
+          
+          Khi sử dụng Express js của Nodejs, bạn đơn giản chỉ cần sử dụng req.ip để lấy IP người dùng. Tuy thế, khi bạn ứng dụng của chúng ta được host trên Heroku thì việc lấy IP thế này sẽ cho kết quả sai, đơn giản vì Heroku thực hiện...
+        </description>
+        <pubDate>Sat, 27 May 2017 15:30:00 +0000</pubDate>
+        <link>https://vietanhdev.com/articles/lay-dia-chi-ip-that-client-nodejs-heroku/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/lay-dia-chi-ip-that-client-nodejs-heroku/</guid>
+      </item>
+    
+      <item>
+        <title>Tạo contact form đơn giản với Nodejs - nodemailer</title>
+        <description>
+          
+          Nếu website của bạn sử dụng một CMS như Wordpress thì việc tạo contact form đã khá dễ dàng với các plug-in. Tuy nhiên nếu bạn đang có một website tĩnh, bạn sẽ cần một dịch vụ để xử lí các form liên hệ của bạn. Bài viết này sẽ...
+        </description>
+        <pubDate>Sat, 27 May 2017 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/articles/tao-contact-form-don-gian-voi-nodejs-nodemailer/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/tao-contact-form-don-gian-voi-nodejs-nodemailer/</guid>
+      </item>
+    
+      <item>
+        <title>Cài Certbot cho Raspbian Jessie</title>
+        <description>
+          
+          Certbot là package phía server sử dụng để lấy và deploy chứng chỉ SSL/TSL một cách tự động. Nó giúp setup một kết nối HTTPS cho máy chủ chỉ trong một nốt nhạc và hoàn toàn miễn phí với Let’s Encrypt. Việc cài đặt package Certbot cho Raspbian(hệ điều hành...
+        </description>
+        <pubDate>Wed, 24 May 2017 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/articles/cai-certbot-Raspbian-Jessie/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/cai-certbot-Raspbian-Jessie/</guid>
+      </item>
+    
+      <item>
+        <title>Một số kĩ thuật xử lí tiếng Việt trong Javascript</title>
+        <description>
+          
+          Các kĩ thuật xử lí sau sẽ giúp chúng ta thao tác với tiếng Việt dễ dàng hơn mà không cần mất công xây dựng lại. Contents Xoá dấu tiếng Việt Loại bỏ tất cả các kí tự không phải chữ cái và số Xoá dấu cách thừa Xoá dấu...
+        </description>
+        <pubDate>Wed, 29 Mar 2017 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/articles/xu-li-tieng-viet-javascript/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/xu-li-tieng-viet-javascript/</guid>
+      </item>
+    
+      <item>
+        <title>Share: Bạn không đi chậm, bạn không đi nhanh, bạn đang đi đúng hướng! - Facebook Trịnh Thành</title>
+        <description>
+          
+          Link bài viết: https://www.facebook.com/thanh.akita/posts/10208865590339573?pnref=story Bài viết này được chia sẻ trên Facebook Trịnh Thành. Đôi khi việc so đo cuộc sống của bạn với cuộc sống của những người xung quanh sẽ làm bạn quên mất cuộc sống này là của riêng bạn. “Đừng để tâm thái quá bạn đang...
+        </description>
+        <pubDate>Mon, 20 Mar 2017 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/til/ban-dang-di-dung-huong/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/til/ban-dang-di-dung-huong/</guid>
+      </item>
+    
+      <item>
+        <title>Share: Mắt Biếc - TeA ft. PCGL (Bài nhạc được chuyển thể từ truyện dài của T.G Nguyễn Nhật Ánh)</title>
+        <description>
+          
+          Lyrics: Đọc 1 ( TeA ) : Thời giờ đã cuốn bay đi những ngày tuổi trẻ còn xanh ngời Một màu phượng vĩ mới nở hôm qua…mà đã cháy đỏ tim anh rồi Đã lâu ta ko về trường vắng Em còn tinh khôi nhành phượng thắm Mắt biếc...
+        </description>
+        <pubDate>Sun, 19 Mar 2017 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/til/music-mat-biec/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/til/music-mat-biec/</guid>
+      </item>
+    
+      <item>
+        <title>Kinh nghiệm ban đầu với Fedora Linux</title>
+        <description>
+          
+          Giới thiệu Fedora Linux Cũng lâu rồi tôi không viết bài trên blog của mình. Hôm nay nhân dịp cài đặt và dùng thử hệ điều hành Fedora Linux (bản Workstation 24), tôi muốn viết một bài chia sẻ cho mọi người những kinh nghiệm đầu tiên về việc sử...
+        </description>
+        <pubDate>Thu, 27 Oct 2016 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/articles/kinh-nghiem-ban-dau-voi-fedora/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/kinh-nghiem-ban-dau-voi-fedora/</guid>
+      </item>
+    
+      <item>
+        <title>Thuật toán loang ứng dụng trong game dò mìn</title>
+        <description>
+          
+          Thuật toán loang Thuật toán loang (thuật toán vết dầu loang) là một thuật toán dùng khá nhiều trong tin học, ứng dụng trong các bài toán thực tế như các bài toán tìm đường đi, game dò mìn, game line98… Gọi là thuật toán loang vì nguyên lí của...
+        </description>
+        <pubDate>Sat, 08 Oct 2016 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/articles/thuat-toan-loang-trong-do-min/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/thuat-toan-loang-trong-do-min/</guid>
+      </item>
+    
+      <item>
+        <title>Xây dựng thuật toán sinh mìn trong trò chơi dò mìn Minesweeper viết bằng C</title>
+        <description>
+          
+          Gần đây, Việt Anh mới viết lại trò chơi dò mìn cổ điển bằng ngôn ngữ C. Trò chơi này có thể thực hiện với những thuật toán đơn giản. Bài viết này sẽ nói về thuật toán khởi tạo mìn mỗi lúc bắt đầu trò chơi. Trước hết tôi...
+        </description>
+        <pubDate>Fri, 07 Oct 2016 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/articles/thuat-toan-sinh-min-trong-tro-choi-do-min-minesweeper/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/thuat-toan-sinh-min-trong-tro-choi-do-min-minesweeper/</guid>
+      </item>
+    
+      <item>
+        <title>Thay đổi độ phân giải màn hình Raspberry Pi</title>
+        <description>
+          
+          Khi cài đặt các phiên bản hệ điều hành dựa trên Linux, tôi nhận thấy nhiều hệ điều hành đôi lúc không nhận được độ phân giải thật của màn hình máy tính, dẫn đến việc hiển thị màn hình với độ phân giải thấp hơn mức bình thường, khiến...
+        </description>
+        <pubDate>Fri, 30 Sep 2016 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/articles/thay-doi-do-phan-giai-man-hinh-raspi/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/thay-doi-do-phan-giai-man-hinh-raspi/</guid>
+      </item>
+    
+      <item>
+        <title>Kinh nghiệm tạo website cá nhân với Jekyll (tiếp)</title>
+        <description>
+          Thêm tên miền riêng, tạo trang categories, tags, tìm kiếm, Sitemap - 
+          Hình ảnh Website VietAnhDev.com sau khi chuyển sang Jekyll Level 2! Trước đây vài ngày tôi có viết bài Kinh nghiệm tạo website cá nhân với Jekyll (level 1), nói về những kinh nghiệm đầu tiên để setup một trang Jekyll. Bài này là phần tiếp theo, về: Sử dụng...
+        </description>
+        <pubDate>Mon, 26 Sep 2016 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/articles/xay-dung-website-voi-jekyll-lv2/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/xay-dung-website-voi-jekyll-lv2/</guid>
+      </item>
+    
+      <item>
+        <title>Kinh nghiệm tạo website cá nhân với Jekyll</title>
+        <description>
+          Một số kinh nghiệm tôi thu được sau khi chuyển website cá nhân từ Wordpress sang Jekyll - 
+          Hình ảnh Website VietAnhDev.com sau khi chuyển sang Jekyll Chú ý: Bài viết này tôi muốn hướng đến các bạn đã có chút kinh nghiệm về web. Công nghệ Jekyll mà tôi muốn chia sẻ là công nghệ khá tuyệt vời để tạo các website cá nhân, tuy nhiên việc...
+        </description>
+        <pubDate>Fri, 16 Sep 2016 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/articles/xay-dung-website-voi-jekyll/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/xay-dung-website-voi-jekyll/</guid>
+      </item>
+    
+      <item>
+        <title>A very simple guide to GNU Emacs</title>
+        <description>
+          
+          This guide was written in Emacs editor. Introduction to GNU Emacs GNU Emacs is a text editor in GNU project. Why should we use Emacs for code editing? High perfomancce Many awesome features for programming: Jump to any header file. Autocompletion. Showing function arguments. Quickly comment. And many more features...
+        </description>
+        <pubDate>Tue, 06 Sep 2016 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/articles/very-simple-guide-to-emacs/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/very-simple-guide-to-emacs/</guid>
+      </item>
+    
+      <item>
+        <title>Cấu hình Emacs để lập trình C</title>
+        <description>
+          
+          Link hướng dẫn cài đặt và sử dụng các chức năng: http://tuhdo.github.io/c-ide.html Sau đây là vài thứ cơ bản ko cần đọc cái bên trên cài và dùng luôn đã » Anh em thực hiện cài đặt: Mở Terminal, gõ lệnh: git clone https://github.com/tuhdo/emacs-c-ide-demo.git ~/.emacs.d Nếu hiện thông báo đã tồn...
+        </description>
+        <pubDate>Fri, 02 Sep 2016 00:00:00 +0700</pubDate>
+        <link>https://vietanhdev.com/articles/cau-hinh-emacs-de-lap-trinh-c/</link>
+        <guid isPermaLink="true">https://vietanhdev.com/articles/cau-hinh-emacs-de-lap-trinh-c/</guid>
+      </item>
+    
+  </channel>
+</rss>

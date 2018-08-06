@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>FrankyNouva's Website</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/homepage/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/homepage/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="/homepage/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/homepage/css/homepage.min.css" rel="stylesheet">
+
+  </head>
+  <body id="page-top">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Menu</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="/">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="/articles/">My blog</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#aboutme">About me</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+							<!-- Banner -->
+								<section id="banner">
+	<div>
+<head>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 7px 7px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: red;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+<a href="https://frankynouva.github.io" target="_blank">Home</a>
+<a href="https://frankynouva.github.io/topnav/facebook.html/" target="_blank">Facebook</a> 
+<a href="https://frankynouva.github.io/topnav/youtube.html/" target="_blank">Youtube</a>
+<a href="https://frankynouva.github.io/topnav/contact.html/" target="_blank">Contact</a>
+<a href="https://frankynouva.github.io/topnav/vip.html/" target="_blank">Vip(*)</a>
+</div>
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <div id="title-text">
+          <h5 class="mb-1">Hi! I'm <span id="iam"></span></h5>
+          <h5 class="mb-5">
+          </h5>
+        </div>
+        <a class="btn btn-info btn-xl js-scroll-trigger" href="/articles/">
+			<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+          <h6> Đây! Bạn đang thắc mắc?</h6>
+<p><img src="/homepage/img/emai.png"width="100%" height="70%"></p>
+<h6>Bài bạn cần  ===>👉 Click đây</h6>
+<h6>(chuyển sang trang QC, ủng hộ Ad)</h6>
+		</a>
+      </div>
+      <div class="overlay"></div>
+
+
+	</header>
+    <!-- About me -->
+    <section class="content-section bg-primary text-white text-center" id="aboutme">
+      <div class="container">
+        <div class="content-section-heading">
+          <h3 class="mb-5"> Franky Nouva</h3>
+		</div>
+        <div class="row">
+	<div class="col-md-5 mb-5 mb-lg-0 text-white text-left">
+				<img src="/homepage/img/vietanhdev.jpeg" style="width: 6rem; height: auto; border-radius: 50%;" class="mb-3">
+				<h5> Hệ thống được xây dựng bởi Franky Nouva, cựu sinh viên trường Đại Học Cần Thơ.</h5>
+				<h5> Trang hiện tại là hệ thống Jarvis - chuyên rà soát các vấn đề trên Internet và chuyển đến các bài viết trong hệ thống dữ liệu để giải quyết mọi vấn đề bao gồm:</h5>
+<h6>✅ Android (Rom, Root,Mod,v.v.....) </h6>
+<h6>✅ IOS (Jailbreak, Cydia, Tweak,v.v.....) </h6>
+<h6>✅ Window (win, ghost, software,v.v......) </h6>
+<h6>✅ More...... </h6>
+    </section>
+<div class="fb-like" 
+    data-href=" <div class="fb-like" 
+    data-href="https://www.facebook.com/groups/463448464080672/permalink/463449634080555"
+    data-layout="standard" 
+    data-action="like" 
+    data-show-faces="true" data-width="300">
+<div align="center" class="ads"></div>
+<div align="center" class="ads">
+<span style="vertical-align: top;display: inline-block;"><b></b></span>
+<div style="vertical-align: top;display: inline-block;">
+<div class="fb-like" data-href="https://www.facebook.com/groups/463448464080672/permalink/463449634080555" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+</div>
+</div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=1824472717596487&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div align="center" class="ads">
+<div class="fb-comments" data-href="https://www.facebook.com/groups/463448464080672/permalink/463449634080555" data-num-posts="10" data-width="500">
+</div>
+</div>
+      </div>
+    </section>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="/homepage/vendor/jquery/jquery.min.js"></script>
+    <script src="/homepage/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/homepage/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="/homepage/js/homepage.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+    <script>
+
+      var typed = new Typed("#iam",  {
+        strings: ["a blogger", "a Jailbreaker",  "FrankyNouva", "NOT a developer 😂"],
+        typeSpeed: 40,
+        backDelay: 2000,
+        loop: true
+      });
+    
+    </script>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="LMEUZLE93QWGW">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+  </body>
+
+</html>
